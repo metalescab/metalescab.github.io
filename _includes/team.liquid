@@ -1,0 +1,42 @@
+<div class="team grid-sizer"></div>
+<div class="team grid-item">
+  <a href="{% if member.redirect %}{{ member.redirect }}{% else %}{{ member.url | relative_url }}{% endif %}">
+    <div class="team card hoverable">
+      {% if member.picture %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=member.picture
+          sizes = "150px"
+          alt="member thumbnail"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title text-titlecase">{{ member.name }}</h2>
+        <p class="card-text">{{ member.position }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if member.email %}
+            <a href="mailto:{{ member.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+          {% endif %}
+          {% if member.social %}
+            {% include member_social.liquid %}
+          {% endif %}
+          
+          {% comment %} {% if member.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ member.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {% if member.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fa-solid fa-star"></i>
+                  <span id="{{ member.github_stars }}-stars"></span>
+                </span>
+              {% endif %}
+            </div>
+          {% endif %} {% endcomment %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

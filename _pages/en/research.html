@@ -1,0 +1,15 @@
+---
+page_id: research
+layout: default
+title: research
+permalink: /research/
+description: Our group develop different research lines.
+nav: true
+nav_order: 4
+# display_categories: [work, fun]
+# horizontal: true
+---
+
+{% for line in site.research %}
+    {{ line.title }}
+  {% endfor %}

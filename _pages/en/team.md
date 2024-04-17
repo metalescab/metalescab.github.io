@@ -1,0 +1,61 @@
+---
+page_id: team
+layout: page
+title: team
+lang: en
+permalink: /team/
+description: A growing collection of your cool team.
+nav: true
+nav_order: 3
+display_roles: [inv, doc, tec]
+horizontal: false
+---
+
+<!-- pages/team.md -->
+<div class="projects">
+  {% if site.enable_member_roles and page.display_roles %}
+    <!-- Display categorized team -->
+    {% for role in page.display_roles %}
+      <a id="{{ site.data[site.active_lang].strings.roles[role] }}" href=".#{{ site.data[site.active_lang].strings.roles[role] }}">
+        <h2 class="role">{{ site.data[site.active_lang].strings.roles[role] }}</h2>
+      </a>
+      {% assign categorized_team = site.team | where: "role", role %}
+      {% assign sorted_team = categorized_team | sort: "name" %}
+      <!-- Generate cards for each member -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-2">
+            {% for member in sorted_team %}
+              {% include team_horizontal.liquid %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for member in sorted_team %}
+            {% include team.liquid %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <!-- Display team without roles -->
+    {% assign sorted_team = site.team | sort: "name" %}
+    <!-- Generate cards for each member -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+          {% for member in sorted_team %}
+            {% include team_horizontal.liquid %}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for member in sorted_team %}
+          {% include team.liquid %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+</div>
