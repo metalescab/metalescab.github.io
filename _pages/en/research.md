@@ -1,6 +1,7 @@
 ---
 page_id: research
-layout: default
+lang: en
+layout: page
 title: research
 permalink: /research/
 description: Our group develop different research lines.
@@ -10,6 +11,8 @@ nav_order: 4
 # horizontal: true
 ---
 
-{% for line in site.research %}
-    {{ line.title }}
-  {% endfor %}
+<div class="post">
+    {%- for line in site.research -%}
+        <h4><a href="{{ line.name }}">{{ line.name }}</a></h4>
+    {%- endfor -%}
+</div>

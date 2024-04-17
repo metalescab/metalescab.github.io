@@ -1141,3 +1141,21 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
+
+
+// Esto que sigue es una prueba
+
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

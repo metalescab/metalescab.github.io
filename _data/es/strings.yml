@@ -1,8 +1,8 @@
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  fun: diversión
+  work: trabajo
 roles:
   inv: Intestigadores/as
   doc: Doctorandos
@@ -12,8 +12,8 @@ footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: últimas postagens
-news: novidades
+latest_posts: últimos post
+news: novedades
 selected_publications: publicaciones selecionadas
 site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
 archive_category: um arquivo de postagens desta categoria
@@ -30,8 +30,8 @@ months:
     march: Marzo
     april: Abril
     may: Mayo
-    june: JunhIo
-    july: JulIo
+    june: Junio
+    july: Julio
     august: Agosto
     september: Setiembre
     october: Octubre
@@ -56,48 +56,48 @@ pagination:
   older: Antiguas
   page: página
 cv:
-  address: Endereço
+  address: Dirección
   area: Área
   awarder: Premiado por
-  awards: Prêmios
+  awards: Premios
   basics: Informações gerais
   certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
+  city: Ciudad
+  countryCode: Código del país
   courses: Cursos
-  date: Data
-  education: Educação
+  date: Fecha
+  education: Educación
   email: Email
-  endDate: Data de término
-  fluency: Fluência
-  highlights: Destaques
+  endDate: Fecha de finalización
+  fluency: Fluencia
+  highlights: Destacados
   image: Imagem
-  institution: Instituição
-  interests: Interesses
+  institution: Instituición
+  interests: Intereses
   issuer: Emissor
-  keywords: Palavras chave
+  keywords: Palabras clave
   label: Título
   language: Idioma
   languages: Idiomas
   level: Nível
-  location: Localização
-  name: Nome
-  network: Rede
-  organization: Organização
-  phone: Telefone
-  position: Posição
+  location: Ubicación
+  name: Nombre
+  network: Red
+  organization: Organización
+  phone: Telófono
+  position: Posición
   postalCode: Código postal
-  profiles: Perfis
-  projects: Projetos
-  publications: Publicações
-  publisher: Editora
-  reference: Referência
-  references: Referências
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
+  profiles: Perfiles
+  projects: Proyectos
+  publications: Publicaciones
+  publisher: Editoral
+  reference: Referencia
+  references: Referencias
+  region: Región
+  releaseDate: Fecha de lanzamento
+  score: Pontuación
   skills: Habilidades
-  startDate: Data de início
+  startDate: Fecha de início
   studyType: Tipo de estudo
   summary: Resumo
   table_of_contents: Tópicos
@@ -105,4 +105,4 @@ cv:
   url: Url
   username: Usuário
   volunteer: Voluntário
-  work: Trabalho
+  work: Trabajo
