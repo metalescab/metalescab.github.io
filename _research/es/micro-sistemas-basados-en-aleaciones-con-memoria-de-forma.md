@@ -1,13 +1,14 @@
 ---
+layout: default
 title: "Micro-sistemas basados en aleaciones con memoria de forma"
-date: "2021-01-22"
 categories: 
-  - "lineas-de-investigacion"
+  - ""
   - "transformacion-martensitica"
+people:
+  - adriana-condo
+  - francisco-lovey
 tags: 
-  - "adriana"
-  - "lineas_investigacion"
-  - "pancho"
+  - ""
 ---
 
 ## Láminas delgadas
@@ -16,14 +17,14 @@ tags:
 
 **Objetivo:** Esta línea de investigación está orientada a optimizar el proceso de fabricación y posteriores tratamientos de láminas delgadas, para que resulten capaces de funcionar como microactuadores. Se emplean técnicas de caracterización microestructural como TEM y XRD y técnicas de medición como resistividad en función de la temperatura.
 
-![](images/micro-sistemas-1.jpg)
+![](/assets/img/research/micro-sistemas-1.jpg)
 
 a), b) Resistividad vs. temperatura en láminas de Cu-Al-Ni con diferentes temperaturas de transformación martensítica. (c), (d) Difracción de rayos X a temperatura ambiente en láminas de fase austenita y martensita, respectivamente.(e), (f) Imágenes TEM de las láminas en fase austenita y martensita, respectivamente.  
 Ref: M. Morán, A.M. Condó, S. Bengio, F. Soldera, M. Sirena, N. Haberkorn, Materials Research Express 6 (2019) 096556.
 
 https://youtu.be/qGh9KJq4qRU
 
-![](images/micro-sistemas-2.jpg)
+![](/assets/img/research/micro-sistemas-2.jpg)
 
 Efecto memoria de forma en una lámina delgada de Cu-Al-Ni irradiada de un lado con iones de Al. Se observa un cambio de forma reversible entre temperatura ambiente y baja temperatura.  
 Ref: M. Morán, A. M. Condó; S. Suárez; F. Soldera; N. Haberkorn, Materials Letters 255 (2019), 126569.

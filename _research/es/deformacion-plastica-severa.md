@@ -1,28 +1,30 @@
 ---
+layout: default
 title: "Deformación plástica severa"
-date: "2020-11-18"
 categories: 
   - "defsevlineas"
-  - "lineas-de-investigacion"
+  - ""
+people:
+  - fran-bubani
 tags: 
   - "fran"
 ---
 
 Los procesos de deformación plástica severa (SPD) son un grupo de procesos termomecánicos no convencionales que se caracterizan por imponer deformaciones plásticas muy altas al material, típicamente superiores al 100%. Las propiedades mecánicas de las aleaciones metálicas sometidas a SPD pueden ser modificadas de manera muy marcada, reflejando las importantes alteraciones microestructurales generadas por el proceso. De forma general, los procesos SPD aumentan la densidad de defectos en la microestructura, reducen el tamaño de grano y generan texturas cristalográficas bien definidas. En algunas aleaciones, es posible obtener estructuras nanocristalinas a través de SPD, con tamaños de grano inferiores a 100 nm. 
 
-![](images/spdFig1-1024x768.png)
+![](/assets/img/research/spdFig1-1024x768.png)
 
 **Figura 1** –Proceso de subdivisión de un grano a través de la acumulación de dislocaciones en Al sometido a deformación plástica severa. Campo oscuro (TEM).
 
 Macroscópicamente, el material sometido a SPD presenta normalmente un importante incremento en la tensión de deformación plástica, menor tasa de endurecimiento por deformación plástica y un comportamiento fuertemente anisotrópico. Por ejemplo, se ha reportado en la literatura que la tensión de deformación plástica del Al sometido a SPD puede ser más de 3 veces superior a la tensión de deformación plástica del Al en el estado recocido. Sin embargo, la tasa de endurecimiento por deformación plástica del Al sometido a SPD puede asumir valores negativos, lo que significa que la tensión de deformación plástica disminuye con el incremento de la deformación. 
 
-![](images/spdFig2-1024x768.png)
+![](/assets/img/research/spdFig2-1024x768.png)
 
 **Figura 2** – Grano de Al dividido en subgranos y/o células, con orientación cristalográfica semejante. Campo oscuro (TEM).
 
 Los procesos SPD también afectan la precipitación: dependiendo del estado inicial y de la composición química de la aleación, la deformación plástica puede favorecer tanto la precipitación cuanto la disolución de los precipitados ya existentes. A la fecha, los procesos de SPD - y los fenómenos metalúrgicos asociados - son una de las más importantes fronteras del conocimiento en Metalurgia Mecánica, con posibles aplicaciones industriales: algunos de los procesos de SPD pueden ser adaptados a líneas de producción, con el objetivo de ajustar el comportamiento mecánico de aleaciones metálicas.
 
-![](images/spdFig3-1024x1024.png)
+![](/assets/img/research/spdFig3-1024x1024.png)
 
 **Figura 3** – Red de dislocaciones en un grano de Al. Campo oscuro (TEM).
 

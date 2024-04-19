@@ -1,21 +1,22 @@
 ---
+layout: default
 title: "Caracterización de aleaciones termoenvejecibles de Al"
 lang: es
 categories: 
   - "aleaciones-al"
-  - "lineas-de-investigacion"
+people:
+  - alfredo-tolley
 tags: 
   - "alfy"
-  - "vicky"
 ---
 
 Entre las aleaciones livianas, las aleaciones de aluminio tienen un amplio espectro de aplicaciones que incluyen la construcción, el transporte aéreo y terrestre, el empaquetamiento, el transporte de energía, etc. Sus propiedades más destacadas incluyen, además de su baja densidad, la alta conductividad eléctrica y térmica y la alta resistencia a la corrosión. Dentro de las aleaciones de aluminio, las aleaciones termoenvejecibles adquieren sus propiedades mecánicas mediante la precipitación controlada por tratamientos térmicos  o termomemecánicos. En este línea de investigación se estudia la evolución microestructural de aleaciones termoenvejecibles de Al como función del tiempo de envejecimiento a diferentes temperaturas para establecer los mecanismos de precipitación. El objetivo es lograr un refinamiento de la micorestructura para optimizar las propiedades mecánicas. En particular se estudia el efecto de microaleantes sobre los procesos de precipitación.
 
-![](images/alfy3.png)
+![](/assets/img/research/alfy3.png)
 
-![](images/alfy2.png)
+![](/assets/img/research/alfy2.png)
 
-![](images/alfy1.png)
+![](/assets/img/research/alfy1.png)
 
 Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!
 
@@ -29,4 +30,4 @@ Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡
 - Microdureza
 - Microscopía Electrónica de Transmisión
 
-![](images/default-image.jpg)
+![](/assets/img/research/default-image.jpg)

@@ -21,20 +21,6 @@
           {% if member.social %}
             {% include member_social.liquid %}
           {% endif %}
-          
-          {% comment %} {% if member.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ member.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if member.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ member.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %} {% endcomment %}
         </div>
       </div>
     </div>

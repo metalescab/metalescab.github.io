@@ -1,21 +1,22 @@
 ---
+layout: default
 title: "Daño por Irradiación en Nanopartículas Metálicas"
-date: "2020-10-06"
 categories: 
-  - "lineas-de-investigacion"
+  - ""
+people:
+  - eugenia-zelaya
+  - julio-azcarate
 tags: 
   - "euge"
   - "julio"
-  - "natalia"
 ---
 
-\[bibshow file=library.bib\]
 
-![](images/AuNPs_coal_TOC-300x162.png)Las nanopartículas metálicas (MNPs) presentan gran interés en diversos campos de la ciencia básica y aplicada. Dicho interés en gran parte es debido a que las propiedades fisicoquímicas a escala macroscópica dependen del tamaño, forma y composición de dichas MNPs. Por lo tanto, al momento de preparar este tipo de nanomateriales es fundamental contar con una adecuada caracterización exhaustiva de la estructura y composición. La Microscopia Electrónica de Transmisión (TEM) es una herramienta fundamental en el proceso de caracterización.
+![](/assets/img/research/AuNPs_coal_TOC-300x162.png)Las nanopartículas metálicas (MNPs) presentan gran interés en diversos campos de la ciencia básica y aplicada. Dicho interés en gran parte es debido a que las propiedades fisicoquímicas a escala macroscópica dependen del tamaño, forma y composición de dichas MNPs. Por lo tanto, al momento de preparar este tipo de nanomateriales es fundamental contar con una adecuada caracterización exhaustiva de la estructura y composición. La Microscopia Electrónica de Transmisión (TEM) es una herramienta fundamental en el proceso de caracterización.
 
 Sin embargo, dado que las nanopartículas tienen un comportamiento diferente al del mismo material masivo, es de esperar que también se comporten de manera diferente frente a la irradiación.
 
-![](images/AuNPs_coal_1-1024x258.png)
+![](/assets/img/research/AuNPs_coal_1-1024x258.png)
 
 El haz de electrones del TEM producen excitación de los electrones de la muestra, lo que puede generar cambios químicos en los materiales irradiados. Estos cambios pueden involucrar la desorción de las moléculas de la superficie, difusión de átomos y moléculas de la superficie, e incluso coalescencia de los carozos metálicos. Esta coalescencia de las NPs ocurre cuando las caras cristalinas se encuentran orientadas adecuadamente (_Oriented Attachment_).\[bibcite key=azcarate\_radiation\_2017\]
 
@@ -25,7 +26,7 @@ El haz de electrones del TEM producen excitación de los electrones de la muestr
 
 [
 
-![](images/Natalia_Aagaard.jpeg)
+![](/assets/img/research/Natalia_Aagaard.jpeg)
 
 Natala Aagaard
 
@@ -37,7 +38,7 @@ Natala Aagaard
 
 [
 
-![](images/Julio_Azcarate.jpg)
+![](/assets/img/research/Julio_Azcarate.jpg)
 
 Julio Azcárate
 
@@ -49,7 +50,7 @@ Julio Azcárate
 
 [
 
-![](images/fotoeuge.jpg)
+![](/assets/img/research/fotoeuge.jpg)
 
 Eugenia Zelaya
 

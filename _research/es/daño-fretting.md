@@ -1,24 +1,23 @@
 ---
+layout: default
 title: "Daño por fretting"
-date: "2021-02-04"
 categories: 
   - "fretting"
-  - "lineas-de-investigacion"
+people:
+  - marcos-bergant
+  - sergio-soria
+  - alejandro-yawny
 tags: 
-  - "bergant"
-  - "marcos_bergant"
-  - "sergio"
-  - "soria"
-  - "yawny"
+  - 
 ---
 
 El _fretting_ es una condición mecánica que existe cuando dos piezas en contacto presentan movimientos relativos de pequeña amplitud, típicamente del orden de decenas de micrones. En aplicaciones industriales suele originarse por vibraciones o por cargas oscilantes en alguno de los componentes en contacto. Una vez presente puede generar diferentes tipos daño localizado, como fisuras, desgaste y oxidación, lo que puede dar lugar a fallas o reducir la vida útil de los componentes en servicio.
 
-![](images/fretting-1.png)Figura 1. Montaje de un dispositivo para ensayos de _fretting_ en tubos sobre una máquina de ensayos servohidráulica.
+![](/assets/img/research/fretting-1.png)Figura 1. Montaje de un dispositivo para ensayos de _fretting_ en tubos sobre una máquina de ensayos servohidráulica.
 
 Una parte importante del trabajo realizado en esta temática se ha focalizado en el diseño y la fabricación de diferentes dispositivos experimentales. A partir de estos dispositivos, que en su mayoría se montan en una máquina de ensayos servohidráulica, se han logrado realizar experimentos controlados y repetitivos. Para la caracterización del daño en los materiales que resulta de estos ensayos se han utilizado diferentes técnicas, entre las que se destacan la microscopía óptica, la microscopía electrónica de barrido y la de transmisión y la perfilometría por interferometría óptica.
 
-![](images/fretting-2.png)Figura 2. (a) Detalle de la configuración de contacto en un ensayo de _fretting_ de un tubo de Inconel 690 contra con dos piezas de acero inoxidable tipo 304L. (b) Desgaste en el tubo observado por microscopía óptica. (c) Fisuras en el tubo observadas por microscopía electrónica de barrido. En ambos casos el daño fue originado en las mismas condiciones de _fretting_ pero a diferente cantidad de ciclos.
+![](/assets/img/research/fretting-2.png)Figura 2. (a) Detalle de la configuración de contacto en un ensayo de _fretting_ de un tubo de Inconel 690 contra con dos piezas de acero inoxidable tipo 304L. (b) Desgaste en el tubo observado por microscopía óptica. (c) Fisuras en el tubo observadas por microscopía electrónica de barrido. En ambos casos el daño fue originado en las mismas condiciones de _fretting_ pero a diferente cantidad de ciclos.
 
 ## Formación de recursos humanos en el tema:
 

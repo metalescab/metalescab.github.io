@@ -1,13 +1,14 @@
 ---
+layout: default
 title: "Aplicaciones en ortopedia de los materiales con memoria de forma"
-date: "2020-10-18"
 categories: 
   - "aplicacionesortopedia"
-  - "lineas-de-investigacion"
+people:
+    - gaston-alonso
+    - graciela-bertolino
+    - alejandro-yawny
 tags: 
-  - "gaston"
-  - "graciela"
-  - "yawny"
+  - ""
 ---
 
 En la División Física de Metales del CAB se cuenta con una extensa experiencia en materiales con memoria de forma (SMA). Estos materiales presentan propiedades mecánicas particulares, que los hacen muy interesantes para aplicaciones en ortopedia y medicina, como se ilustra a continuación con algunos ejemplos de los temas que se están investigando.
@@ -17,17 +18,17 @@ En la División Física de Metales del CAB se cuenta con una extensa experiencia
 Consideremos por ejemplo lo que ocurre cuando se impone una deformación $\\Delta l$ sobre un cuerpo (unidimensional) cualquiera. A medida que la deformación aplicada es mayor, mayor es el esfuerzo $F$ que debe aplicarse para sostenerla. En un material típico de ingeniería, esta relación es lineal y está limitada por la deformación plástica del mismo. Los materiales con memoria de forma exhiben un comportamiento especial: llegado un nivel de deformación (o de carga aplicada), la deformación puede continuar hasta cerca de un 8 % de la longitud inicial del cuerpo sin un incremento significativo de la carga aplicada (decimos que el comportamiento es _pseudoelástico_). Si ahora redujéramos la deformación aplicada, veríamos que la ocurre algo similar en sentido  
 inverso, como se muestra en la figura siguiente $\\Downarrow$
 
-![](images/ortopedia_fig1-300x236.png)
+![](/assets/img/research/ortopedia_fig1-300x236.png)
 
 **¿Para qué serviría esto?**
 
 Esta propiedad es de interés para aplicaciones en que es necesario mantener un esfuerzo de manera sostenida en el tiempo, sobre puntos que se desplazan apreciablemente. Consideremos por ejemplo el caso de una deformidad del pie en equinovaro:
 
-![](images/fig2-300x217.png)
+![](/assets/img/research/fig2-300x217.png)
 
 Esta deformidad se caracteriza por una desviación en extensión (flecha azul), acompañada por una desviación en varo (flecha roja), acompañada frecuentemente por una supinación (flecha verde). La potencialidad de las aleaciones con memoria de forma para tratar este tipo de problemas reside en que es posible hacer una ortesis capaz de ejercer un esfuerzo correctivo _aproximadamente constante,_ manteniendo la carga aplicada a medida que progresa la corrección, sin necesidad de realizar ajustes, como ocurre con los materiales convencionales, como se ilustra a continuación:
 
-![](images/ortopedia_fig3_3-2-300x200.png)
+![](/assets/img/research/ortopedia_fig3_3-2-300x200.png)
 
 En la división se trabaja en soluciones para este y otros problemas de similares características, como son:
 
@@ -39,11 +40,11 @@ En la división se trabaja en soluciones para este y otros problemas de similare
 
 **¿Y si ahora aumentamos la temperatura de la aleación?**
 
-Si ahora aumentáramos la temperatura de una SMA que ha sido deformada hasta entrar en régimen pseudoelástico, sin variar su deformación, observaríamos que la carga que es necesario sostener aumenta. Este calentamiento podría hacerse por ejemplo por efecto Joule, al hacer pasar una corriente eléctrica por el mismo. Esto se muestra esquemáticamente en la figura siguiente, en que la carga se mueve del punto (1) al punto (2):![](images/ortopedia_fig4-300x201.png)
+Si ahora aumentáramos la temperatura de una SMA que ha sido deformada hasta entrar en régimen pseudoelástico, sin variar su deformación, observaríamos que la carga que es necesario sostener aumenta. Este calentamiento podría hacerse por ejemplo por efecto Joule, al hacer pasar una corriente eléctrica por el mismo. Esto se muestra esquemáticamente en la figura siguiente, en que la carga se mueve del punto (1) al punto (2):![](/assets/img/research/ortopedia_fig4-300x201.png)
 
 **¿Y con esto?**
 
-El efecto descrito anteriormente muestra una de las potencialidades más grandes de las SMAs. Con alambres o cintas de estos materiales es posible hacer actuadores muy compactos, que permitan aplicar una carga controlada sobre un miembro o una prótesis, para asistir el movimiento de una parte del cuerpo, por ejemplo una mano:![](images/ortopedia_fig5-201x300.png)Se está estudiando cómo utilizar el principio aquí ilustrado también para el desarrollo de ortesis activas de asistencia a la marcha.
+El efecto descrito anteriormente muestra una de las potencialidades más grandes de las SMAs. Con alambres o cintas de estos materiales es posible hacer actuadores muy compactos, que permitan aplicar una carga controlada sobre un miembro o una prótesis, para asistir el movimiento de una parte del cuerpo, por ejemplo una mano:![](/assets/img/research/ortopedia_fig5-201x300.png)Se está estudiando cómo utilizar el principio aquí ilustrado también para el desarrollo de ortesis activas de asistencia a la marcha.
 
 - **Trabajos de colaboración activos:**
     - 2019-2020 : Se está desarrollando una ortesis pasiva que utiliza alambres de NiTi para mejorar el proceso de rehabilitación neurológica de pacientes que sufren secuelas de ACVs.

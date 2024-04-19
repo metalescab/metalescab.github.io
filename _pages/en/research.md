@@ -11,8 +11,52 @@ nav_order: 4
 # horizontal: true
 ---
 
-<div class="post">
-    {%- for line in site.research -%}
-        <h4><a href="{{ line.name }}">{{ line.name }}</a></h4>
-    {%- endfor -%}
+
+<!-- pages/research.md -->
+<div class="research">
+  {% if site.enable_line_categories and page.display_categories %}
+    <!-- Display categorized research -->
+    {% for category in page.display_categories %}
+      <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
+        <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
+      </a>
+      {% assign categorized_research = site.research | where: "category", category %}
+      {% assign sorted_research = categorized_research | sort: "importance" %}
+      <!-- Generate cards for each line -->
+      {% if page.horizontal %}
+        <div class="container">
+          <div class="row row-cols-1">
+            {% for line in sorted_research %}
+              {% include research_horizontal.liquid %}
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
+        <div class="grid">
+          {% for line in sorted_research %}
+            {% include research.liquid %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <!-- Display research without categories -->
+    {% assign sorted_research = site.research | sort: "importance" %}
+    <!-- Generate cards for each line -->
+    {% if page.horizontal %}
+      <div class="container">
+        <div class="row row-cols-2">
+          {% for line in sorted_research %}
+            {% include research_horizontal.liquid %}
+          {% endfor %}
+        </div>
+      </div>
+    {% else %}
+      <div class="grid">
+        {% for line in sorted_research %}
+          {% include research.liquid %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
 </div>

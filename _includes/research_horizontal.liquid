@@ -1,0 +1,34 @@
+<div class="card-item col">
+  <a href="{% if line.redirect %}{{ line.redirect }}{% else %}{{ line.url | relative_url }}{% endif %}">
+    <div class="card hoverable">
+      <div class="row g-0">
+        {% if line.img %}
+          <div class="card-img col-md-6">
+            {% include figure.liquid loading="eager" path=line.img sizes="(min-width: 768px) 156px, 50vw" alt="line thumbnail" %}
+          </div>
+        {% endif %}
+        <div class="{% if line.img %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title text-lowercase">{{ line.title }}</h3>
+            <p class="card-text">{{ line.description }}</p>
+            <div class="row ml-1 mr-1 p-0">
+              {% comment %} {% if line.github %}
+                <div class="github-icon">
+                  <div class="icon" data-toggle="tooltip" title="Code Repository">
+                    <a href="{{ line.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                  </div>
+                  {% if line.github_stars %}
+                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                      <i class="fa-solid fa-star"></i>
+                      <span id="{{ line.github_stars }}-stars"></span>
+                    </span>
+                  {% endif %}
+                </div>
+              {% endif %} {% endcomment %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

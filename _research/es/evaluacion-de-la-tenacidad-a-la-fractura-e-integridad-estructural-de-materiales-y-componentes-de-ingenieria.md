@@ -1,9 +1,12 @@
 ---
+layout: default
 title: "Evaluación de la tenacidad a la fractura e integridad estructural de materiales y componentes de ingeniería"
-date: "2020-10-19"
 categories: 
-  - "lineas-de-investigacion"
+  - ""
   - "tenfraclineas"
+people:
+  - marcos-bergant
+  - alejandro-yawny
 tags: 
   - "bergant"
   - "yawny"
@@ -15,13 +18,13 @@ La línea de investigación asociada a mecánica de fractura aborda integralment
 
 En la Figura 1a) se observan ensayos de tenacidad a la fractura en tubos de generadores de vapor nucleares realizados en una de las máquinas servohidráulicas disponibles en el laboratorio de propiedades mecánicas. Dadas las dimensiones reducidas de los tubos, este estudio requirió desarrollar metodologías, probetas y técnicas experimentales novedosas \[1-4\]. Los resultados obtenidos fueron aplicados para análisis de fisuras circunferenciales y longitudinales en tubos en operación, Figuras 1b) y 1c) \[5-7\].
 
-![](images/tenacidad-1.png)
+![](/assets/img/research/tenacidad-1.png)
 
 Figura 1. Ensayos de tenacidad a la fractura en tubos de generadores de vapor
 
 Otra línea de trabajo está relacionada con la caracterización de la tenacidad a la fractura del acero ferrítico SA-508, Figura 2a), que se está utilizando en la construcción del recipiente de presión del reactor CAREM-25, Figura 2b). Las curvas obtenidas son aplicadas en análisis de fisuras en penetraciones de procesos y soldaduras disímiles del recipiente de presión, Figura 2 b), utilizando diferentes metodologías de la mecánica de fractura elastoplástica, Figura 2c) \[8\].
 
-![](images/tenacidad-2.png)
+![](/assets/img/research/tenacidad-2.png)
 
 Figura 2. Aplicaciones de mecánica de fractura al recipiente de presión del reactor CAREM-25
 

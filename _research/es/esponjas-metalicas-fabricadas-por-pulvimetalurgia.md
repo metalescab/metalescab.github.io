@@ -1,11 +1,13 @@
 ---
+layout: default
 title: "Esponjas metálicas fabricadas por pulvimetalurgia"
-date: "2020-11-09"
 categories: 
   - "esppulvlineas"
-  - "lineas-de-investigacion"
+  - ""
+people:
+  - graciela-bertolino
+  - marite-malachevsky
 tags: 
-  - "andrea"
   - "graciela"
   - "marite"
 ---
@@ -14,7 +16,7 @@ Las esponjas metálicas ofrecen características únicas combinando morfología 
 
 Los materiales celulares son extensamente utilizados en la actualidad como absorbentes de energía, es decir, para disipar la mayor parte de la energía que reciben. En general, la energía recibida es cinética y es convertida en calor, como por ejemplo en la absorción de la energía de deformación de un impacto. Los materiales celulares metálicos  convencionales pueden absorber gran cantidad de energía debido a que se compactan de manera irreversible al deformarse plásticamente. También investigamos el uso de esponjas de aleación con memoria de forma. La posibilidad de utilizar esponjas con estas propiedades permitiría extender el empleo de materiales celulares a solicitaciones dinámicas con alto nivel de deformaciones de manera reversible.
 
-![](images/esponjas.png)
+![](/assets/img/research/esponjas.png)
 
 Figura 1: a) esponja de cobre; tomografía de rayos x: b) reconstrucción volumétrica, c) segmentación de celdas.
 
@@ -22,7 +24,7 @@ Fabricamos las esponjas empleando métodos de pulvimetalurgia. Actualmente estam
 
 Determinamos la meso y microestructura de las esponjas mediante SEM, difracción de rayos x y tomografía. También estudiamos sus propiedades mecánicas y modos de falla.
 
-![](images/tomografia_esponjas.png)
+![](/assets/img/research/tomografia_esponjas.png)
 
 Figura 2: análisis de una esponja luego de un ensayo de compresión uniaxial: detalle de la formación de pliegues en las paredes de celda por deformación plástica.
 

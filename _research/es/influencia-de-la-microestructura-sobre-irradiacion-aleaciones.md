@@ -1,20 +1,22 @@
 ---
+layout: default
 title: "Influencia de la microestructura sobre efectos de irradiación en aleaciones metálicas"
-date: "2021-02-03"
 categories: 
   - "aleaciones-al"
-  - "lineas-de-investigacion"
+  - ""
+people:
+  - alfredo-tolley
 tags: 
   - "irrad_micro_al"
 ---
 
 Se estudia la influencia de la microestructura de aleaciones metálicas sobre los daños generados por irradiación con iones. El objetivo es establecer los mecanismos de daño y la forma de mitigar el mismo mediante el diseño de una microestructura adecuada, con el fin de contribuir conceptualmente al desarrollo aleaciones con alta resistencia a la irradiación para aplicaciones en reactores de fisión o de fusión. Actualmente esta línea se desarrolla en colaboración con el Dr. Esteban Sánchez de la División Física de Superficies del Centro Atómico Bariloche.
 
-![](images/alfy7.png)
+![](/assets/img/research/alfy7.png)
 
-![](images/alfy6.png)
+![](/assets/img/research/alfy6.png)
 
-![](images/alfy5.png)
+![](/assets/img/research/alfy5.png)
 
 **Trabajan en el tema**
 
@@ -38,4 +40,4 @@ Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡
 - Microscopía Electrónica de Barrido
 - Microscopía Electrónica de Transmisión
 
-![](images/default-image.jpg)
+![](/assets/img/research/default-image.jpg)

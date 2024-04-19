@@ -1,11 +1,12 @@
 ---
-page_id: actuators-mmf
+layout: default
 title: "MMFs used as linear actuators"
 lang: en
-permalink: /:collection/:title
 categories: 
   - "actuadores-mmf"
-  - "lineas-de-investigacion"
+people:
+  - juan-delmastro
+  - alejandro-yawny
 tags: 
   - "actlinmmf"
 ---
@@ -16,15 +17,15 @@ Conducting in-situ mechanical tests allows for the observation of the sample usi
 
 A device capable of conducting such tests, actuated by MMFs, has been developed within the Division, as depicted in the following figure:
 
-![Actuators MMF](images/actuators-mmf-1.png)
+![Actuators MMF](/assets/img/research/actuadores-mmf-1.png)
 
 This device features MMF strips that work in a protagonist manner (contracting to pull the sample) and others in an antagonistic manner (contracting to compress the sample). This allows for a greater range of operation and response speed of the device. Through adaptive control techniques and dedicated electronics, programs of variable loading and displacement were successfully implemented. The Division is working on new prototypes that may be more compact and capable of achieving a wider range of loads and displacements.
 
-![Actuators MMF](images/actuators-mmf-2.png)
+![Actuators MMF](/assets/img/research/actuadores-mmf-2.png)
 
 Another interest of the Division is to explore the potential of these materials for the development of independent actuators that can be mounted on various devices. With this goal in mind, an actuator with greater capacity than the previous system has been developed, intended to work in a stationary lever-arm machine. With larger section strips and a reset system using compression springs, this actuator is capable of applying a load of 500 N over a range of 12 mm.
 
-![Actuators MMF](images/actuators-mmf-4.png) ![Actuators MMF](images/actuators-mmf-3.png)
+![Actuators MMF](/assets/img/research/actuadores-mmf-4.png) ![Actuators MMF](/assets/img/research/actuadores-mmf-3.png)
 
 ## Related Publications  
 
