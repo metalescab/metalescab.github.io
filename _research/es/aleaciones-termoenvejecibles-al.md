@@ -1,5 +1,6 @@
 ---
 layout: default
+page_id: termoenvejecibles
 title: "Caracterización de aleaciones termoenvejecibles de Al"
 lang: es
 categories: 
@@ -31,3 +32,5 @@ Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡
 - Microscopía Electrónica de Transmisión
 
 ![](/assets/img/research/default-image.jpg)
+
+{% include people-in-research-line.liquid %}

@@ -2,6 +2,7 @@
 name: "Francisco Damián Aldana"
 page_id: francisco-aldana
 picture: /assets/img/team/foto.png
+layout: profile
 lang: en
 role: doc
 position: "PhD student - CONICET"
@@ -41,10 +42,11 @@ tags:
 
 
 
-**Líneas de Investigación**
+### Research Lines
+
+{% include research-line-in-people.liquid %}
 
 
-
-**Publicaciones**
+### Publications
 
 

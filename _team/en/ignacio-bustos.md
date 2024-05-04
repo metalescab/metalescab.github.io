@@ -2,6 +2,7 @@
 name: "Raúl Ignacio Bustos"
 page_id: ignacio-bustos
 picture: /assets/img/team/ignacio-bustos.jpg
+layout: profile
 lang: en
 role: doc
 permalink: 
@@ -48,6 +49,6 @@ tags:
 # Linea de Investigación
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Bustos highlight=Bustos\]

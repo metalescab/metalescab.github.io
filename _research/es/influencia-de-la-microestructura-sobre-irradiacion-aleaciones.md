@@ -1,5 +1,6 @@
 ---
 layout: default
+page_id: microestructuras
 title: "Influencia de la microestructura sobre efectos de irradiación en aleaciones metálicas"
 categories: 
   - "aleaciones-al"
@@ -20,9 +21,10 @@ Se estudia la influencia de la microestructura de aleaciones metálicas sobre lo
 
 **Trabajan en el tema**
 
+{% include people-in-research-line.liquid %}
+
 Esteban A. Sánchez (Física de Superficies)
 
-Teobaldo Torres (Física de Metales)
 
 Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!
 

@@ -1,5 +1,6 @@
 ---
 page_id: actuators-mmf
+page_id: actuadores
 layout: default
 title: "MMFs utilizados como actuadores lineales"
 lang: es
@@ -39,3 +40,5 @@ Otro interés de la División es explorar el potencial de estos materiales para 
 - Prototipado rápido mediante impresión 3D
 
 ## Trabajan en el tema
+
+{% include people-in-research-line.liquid %}

@@ -2,6 +2,7 @@
 name: "Francisco Damián Aldana"
 page_id: francisco-aldana
 picture: /assets/img/team/foto.png
+layout: profile
 lang: es
 role: doc
 position: "Becario Doctoral del CONICET"
@@ -41,10 +42,11 @@ tags:
 
 
 
-**Líneas de Investigación**
+### Líneas de Investigación
+
+{% include research-line-in-people.liquid %}
 
 
-
-**Publicaciones**
+### Publicaciones
 
 

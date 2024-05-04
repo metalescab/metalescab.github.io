@@ -1,11 +1,14 @@
 ---
 layout: default
+page_id: fretting
 title: "Daño por fretting"
+lang: es
+thumbnail: /assets/img/research/fretting-1.png
 categories: 
   - "fretting"
 people:
-  - marcos-bergant
   - sergio-soria
+  - marcos-bergant
   - alejandro-yawny
 tags: 
   - 
@@ -42,3 +45,5 @@ Si bien la temática está enfocada principalmente a tubos de generadores de vap
 - Microscopía electrónica de transmisión (TEM).
 
 ## Trabajan en el tema
+
+{% include people-in-research-line.liquid %}

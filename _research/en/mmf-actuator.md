@@ -1,5 +1,6 @@
 ---
 layout: default
+page_id: actuadores
 title: "MMFs used as linear actuators"
 lang: en
 categories: 
@@ -38,3 +39,5 @@ Another interest of the Division is to explore the potential of these materials 
 - Rapid prototyping through 3D printing
 
 ## Researchers Working on the Topic
+
+{% include people-in-research-line.liquid %}

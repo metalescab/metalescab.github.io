@@ -2,6 +2,7 @@
 name: "Pablo Riquelme"
 page_id: pablo-riquelme
 picture: /assets/img/team/pablo-riquelme.jpg
+layout: profile
 lang: en
 role: tec
 permalink: 

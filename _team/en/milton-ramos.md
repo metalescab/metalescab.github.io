@@ -2,6 +2,7 @@
 name: "Milton Ramos"
 page_id: milton-ramos
 picture: /assets/img/team/milton-ramos.jpg
+layout: profile
 lang: en
 role: tec
 permalink: 

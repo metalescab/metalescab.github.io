@@ -15,19 +15,6 @@
         <h2 class="card-title text-lowercase">{{ line.title }}</h2>
         <p class="card-text">{{ line.description }}</p>
         <div class="row ml-1 mr-1 p-0">
-          {% comment %} {% if line.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ line.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if line.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ line.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %} {% endcomment %}
         </div>
       </div>
     </div>

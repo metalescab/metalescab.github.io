@@ -2,6 +2,7 @@
 name: "Alfredo Tolley"
 page_id: alfredo-tolley
 picture: /assets/img/team/alfredo-tolley.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -50,10 +51,11 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Tolley highlight=Tolley\]

@@ -2,6 +2,7 @@
 name: "Graciela Bertolino"
 page_id: graciela-bertolino
 picture: /assets/img/team/graciela-bertolino.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -46,10 +47,11 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 
 

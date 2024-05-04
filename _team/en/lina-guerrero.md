@@ -2,6 +2,7 @@
 name: "Lina María Guerrero Salazar"
 page_id: lina-guerrero
 picture: /assets/img/team/lina-guerrero.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -59,8 +60,9 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 - Transformaciones Martensíticas.
 - Aleaciones con memoria de forma.
 - Transiciones estructurales y magneticas.
@@ -68,6 +70,6 @@ tags:
 
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Guerrero highlight=Guerrero\]

@@ -2,6 +2,7 @@
 name: "Marcelo Gastón Alonso"
 page_id: gaston-alonso
 picture: /assets/img/team/gaston-alonso.jpg
+layout: profile
 lang: es
 role: inv
 permalink: 
@@ -45,9 +46,10 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publicaciones
 

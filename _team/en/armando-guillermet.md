@@ -2,6 +2,7 @@
 name: "Armando Fernández-Guillermet"
 page_id: armando-guillermet
 picture: /assets/img/team/armando-guillermet.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -46,9 +47,10 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 

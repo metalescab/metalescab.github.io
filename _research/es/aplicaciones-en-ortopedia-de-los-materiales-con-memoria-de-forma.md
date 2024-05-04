@@ -1,6 +1,8 @@
 ---
 layout: default
+page_id: ortopedia
 title: "Aplicaciones en ortopedia de los materiales con memoria de forma"
+lang: es
 categories: 
   - "aplicacionesortopedia"
 people:
@@ -55,7 +57,9 @@ El efecto descrito anteriormente muestra una de las potencialidades más grandes
     - Ortesis pasiva de rodilla, sin posibilidad de articulación para paciente de 5 años de edad con acondroplasia congénita y genu varo.
     - Ortesis pasiva de rodilla, con posibilidad de flexión, para paciente de 12 años de edad con genu valgo.
 
-Trabajan en el temaPublicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!
+{% include people-in-research-line.liquid %}
+
+Publicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!
 
 - **Tesis de grado:**
     - 2019 -- 2020: Proyecto Integrador de Ingeniería Rolando Cabrera, Ingeniería Mecánica, Instituto Balseiro. Título: Desarrollo y optimización de una ortesis activa para la rehabilitación neurológica del miembro inferior. Director: G. Alonso, Codirector: J. Delmastro.

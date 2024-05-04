@@ -1,8 +1,8 @@
 ---
-layout: profile
 name: "Marcos Antonio Bergant"
 page_id: marcos-bergant
 picture: /assets/img/team/marcos-bergant.jpg
+layout: profile
 lang: es
 role: inv
 # permalink: 
@@ -73,15 +73,16 @@ Investigador en el grupo de metalurgia del CINI (Centro de Investigación Indust
 
 * * *
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
+{% include research-line-in-people.liquid %}
 - Caracterización de comportamiento mecánico de materiales.
 - Caracterización de propiedades de fractura y de materiales.
 - Cálculo y análisis de mecánica de fractura.
 
 * * *
 
-**Publicaciones**
+### Publicaciones
 
 **_Publicaciones en Revistas Científicas_**
 

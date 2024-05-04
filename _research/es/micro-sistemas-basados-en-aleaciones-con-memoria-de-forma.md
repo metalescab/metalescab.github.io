@@ -1,5 +1,6 @@
 ---
 layout: default
+page_is: microsistemas
 title: "Micro-sistemas basados en aleaciones con memoria de forma"
 categories: 
   - ""
@@ -30,6 +31,8 @@ Efecto memoria de forma en una lámina delgada de Cu-Al-Ni irradiada de un lado 
 Ref: M. Morán, A. M. Condó; S. Suárez; F. Soldera; N. Haberkorn, Materials Letters 255 (2019), 126569.
 
 **Integrantes de la División Física de Metales**
+
+{% include people-in-research-line.liquid %}
 
 **Investigadores de otras Divisiones y/o Instituciones:**
 

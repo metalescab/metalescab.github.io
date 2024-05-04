@@ -2,6 +2,7 @@
 name: "Fran de Castro Bubani"
 page_id: fran-bubani
 picture: /assets/img/team/fran-bubani.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -43,13 +44,13 @@ tags:
 ---
 
 
-
 * * *
+### Research Lines
 
-**Líneas de Investigación**
+{% include research-line-in-people.liquid %}
 
-* * *
 
-**Publicaciones**
+* * * 
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Bubani highlight=Bubani\]

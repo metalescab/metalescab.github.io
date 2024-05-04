@@ -2,6 +2,7 @@
 name: "Jorge Luis Pelegrina"
 page_id: jorge-pelegrina
 picture: /assets/img/team/jorge-pelegrina.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -48,10 +49,11 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 
 

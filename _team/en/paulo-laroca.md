@@ -2,6 +2,7 @@
 name: "Paulo Matías La Roca"
 page_id: paulo-laroca
 picture: /assets/img/team/paulo-laroca.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -98,14 +99,15 @@ Abril - Junio 2013, Laboratoire de Métalurgie Structurale, Ecole Nationale Sup
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 - Aleaciones con memoria de forma.
 - Propiedades mecánicas y funcionales de aceros con transformación martensítica.
 - Efecto de la microestructura en la estabilidad de fases en aleaciones con transformación martensítica.
 
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=La Roca highlight=La Roca\]

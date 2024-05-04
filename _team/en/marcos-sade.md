@@ -2,6 +2,7 @@
 name: "Marcos Leonel Sade Lichtman"
 page_id: marcos-sade
 picture: /assets/img/team/marcos-sade.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -66,10 +67,11 @@ Tareas de gestión realizadas: Jefe División Física de Metales (1995-2003), Co
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Sade highlight=Sade\]

@@ -2,6 +2,7 @@
 name: "María Teresa Malachevsky"
 page_id: marite-malachevsky
 picture: /assets/img/team/marite-malachevsky.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -86,12 +87,13 @@ Miembro del Comité Editorial de la SAM-CONAMET 2018 realizada en Bariloche 1-5 
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 - Alambres superconductores de MgB2
 
 * * *
 
-**Publicaciones**
+### Publications
 
 \[bibtex file=library.bib sort=year order=desc author=Malachevsky highlight=Malachevsky\]

@@ -1,6 +1,8 @@
 ---
 layout: default
+page_id: estabilidad-fase
 title: "Estabilidad de fases en aleaciones de Cu con memoria de forma"
+lang: es
 categories: 
   - ""
 people:
@@ -22,3 +24,4 @@ Ante un cambio de la estabilidad relativa de las fases, las temperaturas y las t
 Para entender y controlar la estabilización, son necesarios tanto el trabajo experimental como las simulaciones. El trabajo experimental consiste en el análisis del efecto de tratamientos térmicos y envejecimientos sobre las características de la transformación martensítica. Las simulaciones intentan dilucidar los posibles mecanismos de difusión atómica que, al cambiar el ordenamiento de los átomos dentro de la estructura cristalina, provocan el cambio de la estabilidad relativa de las fases.
 
 * * *
+{% include people-in-research-line.liquid %}

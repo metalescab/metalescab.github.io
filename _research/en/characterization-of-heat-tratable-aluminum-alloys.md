@@ -1,12 +1,13 @@
 ---
 layout: default
+page_id: termoenvejecibles
 title: "Characterization of Heat-Treatable Aluminum Alloys"
 lang: en
 categories: 
   - "aluminum-alloys"
-tags: 
-  - "alfy"
-  - "vicky"
+people: 
+  - alfredo-tolley
+  
 ---
 
 Among lightweight alloys, aluminum alloys have a wide range of applications including construction, air and land transportation, packaging, power transmission, etc. Their outstanding properties include, besides their low density, high electrical and thermal conductivity, and high corrosion resistance. Within aluminum alloys, heat-treatable alloys acquire their mechanical properties through precipitation controlled by heat treatments or thermomechanical treatments. In this research line, the microstructural evolution of heat-treatable Al alloys is studied as a function of aging time at different temperatures to establish precipitation mechanisms. The goal is to achieve refinement of the microstructure to optimize mechanical properties. In particular, the effect of microalloying elements on precipitation processes is studied.
@@ -18,6 +19,8 @@ Among lightweight alloys, aluminum alloys have a wide range of applications incl
 ![](/assets/img/research/alfy1.png)
 
 ## Researchers Working on the Topic
+
+{% include people-in-research-line.liquid %}
 
 ## Related Publications
 

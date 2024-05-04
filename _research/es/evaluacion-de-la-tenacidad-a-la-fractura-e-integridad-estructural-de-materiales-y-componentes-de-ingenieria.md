@@ -1,6 +1,8 @@
 ---
 layout: default
+page_id: tenacidad-fractura
 title: "Evaluación de la tenacidad a la fractura e integridad estructural de materiales y componentes de ingeniería"
+lang: es
 categories: 
   - ""
   - "tenfraclineas"
@@ -36,9 +38,9 @@ Trabajan en el temaPublicaciones destacadasTécnicas y equipamiento asociado¡Tr
 Correlación digital de imágenes (Digital Image Correlation, DIC)  
 Microscopia electrónica de barrido (SEM)
 
-**Miembros de otras divisiones y/o instituciones**
 
-Juan Perez Ipiña (CONICET)
+
+{% include people-in-research-line.liquid %}
 
 **Técnicas de Investigación**
 

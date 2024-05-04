@@ -2,6 +2,7 @@
 name: "Hugo R. Soul"
 page_id: hugo-soul
 picture: /assets/img/team/hugo-soul.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -59,13 +60,14 @@ Año 2017: Estadía Postdoctoral en laboratorio de aleaciones y sistemas intelig
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 Aplicaciones tecnológicas de AMF: Disipación de energía y aislamiento sísmico, compensación de tensiones térmicas, fusibles mecánicos activados por temperatura, actuadores lineales.  
 Manufactura Aditiva: Estructuras reticulares periódicas, propiedades mecánicas, fatiga.
 
 * * *
 
-**Publicaciones**
+### Publications
 
 

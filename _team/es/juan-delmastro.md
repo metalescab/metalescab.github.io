@@ -2,6 +2,7 @@
 name: "Juan Delmastro"
 page_id: juan-delmastro
 picture: /assets/img/team/juan-delmastro.jpg
+layout: profile
 lang: es
 role: inv
 permalink: 
@@ -45,8 +46,9 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
-**Publicaciones**
+{% include research-line-in-people.liquid %}
+### Publicaciones
 
 

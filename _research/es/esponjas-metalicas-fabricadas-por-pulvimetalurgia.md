@@ -1,6 +1,8 @@
 ---
 layout: default
+page_id: esponjas
 title: "Esponjas metálicas fabricadas por pulvimetalurgia"
+lang: es
 categories: 
   - "esppulvlineas"
   - ""
@@ -37,7 +39,7 @@ Ensayos Mecánicos
 
 **Integrantes de la División Física de Metales**
 
-Andrea Gómez (becaria Maestría en Ingeniería)
+{% include people-in-research-line.liquid %}
 
 **Integrantes de otras Divisiones y/o Instituciones**
 

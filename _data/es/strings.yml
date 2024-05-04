@@ -1,26 +1,26 @@
 blog:
-  navigation_title: blog
+  navigation_title: blog # No translation needed
 categories:
   fun: diversión
   work: trabajo
 roles:
-  inv: Intestigadores/as
+  inv: Investigadores/as
   doc: Doctorandos
   tec: Técnicos
-contact_note: Incluso puede añadir una pequeña nota sobre cuál de ellas es la mejor forma de ponerse en contacto con usted.
+contact_note: Incluso puede añadir una pequeña nota sobre cuál es la mejor forma de ponerse en contacto con usted.
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Desarrollado en <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: últimos post
+  Fotos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: últimos artículos
 news: novedades
-selected_publications: publicaciones selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
-archive_category: um arquivo de postagens desta categoria
-archive_tag: um arquivo de postagens com este marcador
-archive_year: um arquivo de postagens deste ano
+selected_publications: publicaciones seleccionadas
+site_description: Un tema simple para académicos. Basado en el diseño de [*folio](https://github.com/bogoli/-folio).
+archive_category: un archivo de publicaciones de esta categoría
+archive_tag: un archivo de publicaciones con esta etiqueta
+archive_year: un archivo de publicaciones de este año
 related_posts:
-  description: "He aquí otros artículos que quizá le interese leer a continuación:"
+  description: "Aquí hay otros artículos que quizás le interese leer a continuación:"  # Minor change in sentence structure
   title: ¿Disfrutó leyendo este artículo?
 references: Referencias
 months:
@@ -33,7 +33,7 @@ months:
     june: Junio
     july: Julio
     august: Agosto
-    september: Setiembre
+    september: Setiembre  # Consider using Septiembre (standard Spanish)
     october: Octubre
     november: Noviembre
     december: Diciembre
@@ -58,9 +58,9 @@ pagination:
 cv:
   address: Dirección
   area: Área
-  awarder: Premiado por
+  awarder: Otorgado por
   awards: Premios
-  basics: Informações gerais
+  basics: Información general
   certificates: Certificados
   city: Ciudad
   countryCode: Código del país
@@ -69,40 +69,40 @@ cv:
   education: Educación
   email: Email
   endDate: Fecha de finalización
-  fluency: Fluencia
+  fluency: Fluidez
   highlights: Destacados
-  image: Imagem
-  institution: Instituición
+  image: Imagen
+  institution: Institución
   interests: Intereses
-  issuer: Emissor
+  issuer: Emisor
   keywords: Palabras clave
   label: Título
   language: Idioma
   languages: Idiomas
-  level: Nível
+  level: Nivel
   location: Ubicación
   name: Nombre
   network: Red
   organization: Organización
-  phone: Telófono
+  phone: Teléfono
   position: Posición
   postalCode: Código postal
   profiles: Perfiles
   projects: Proyectos
   publications: Publicaciones
-  publisher: Editoral
+  publisher: Editorial
   reference: Referencia
   references: Referencias
   region: Región
-  releaseDate: Fecha de lanzamento
-  score: Pontuación
+  releaseDate: Fecha de lanzamiento
+  score: Puntuación
   skills: Habilidades
-  startDate: Fecha de início
-  studyType: Tipo de estudo
-  summary: Resumo
+  startDate: Fecha de inicio
+  studyType: Tipo de estudio
+  summary: Resumen
   table_of_contents: Tópicos
   title: Título
   url: Url
-  username: Usuário
-  volunteer: Voluntário
+  username: Usuario
+  volunteer: Voluntario
   work: Trabajo

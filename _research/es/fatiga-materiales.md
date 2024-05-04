@@ -1,6 +1,8 @@
 ---
 layout: default
+page_id: fatiga
 title: "Fatiga de materiales"
+lang: es
 categories: 
   - ""
 people:
@@ -46,3 +48,5 @@ Se estudia en la actualidad la posibilidad de aplicar la termografía infrarroja
 **Trabajos de tesis (grado y posgrado):**
 
 - Bustos, R. Ignacio- ‘Efectos ambientales en el diseño a la fatiga de componentes nucleares clase 1’. Tesis de Posgrado (Maestría en Ingeniería).  Instituto Balseiro (2018).
+
+{% include people-in-research-line.liquid %}

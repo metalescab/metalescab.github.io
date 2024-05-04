@@ -2,6 +2,7 @@
 name: "Adriana Condó"
 page_id: adriana-condo
 picture: /assets/img/team/adriana-condo.jpg
+layout: profile
 lang: en
 role: inv
 position: "Researcher Independiente del CONICET"
@@ -43,10 +44,11 @@ tags:
 
 
 
-**Líneas de Investigación**
+### Research Lines
+
+{% include research-line-in-people.liquid %}
 
 
-
-**Publicaciones**
+### Publications
 
 

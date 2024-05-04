@@ -2,6 +2,7 @@
 name: "Alejandro Yawny"
 page_id: alejandro-yawny
 picture: /assets/img/team/alejandro-yawny.jpg
+layout: profile
 lang: es
 role: inv
 position: "Investigador de la CNEA, Principal A, TNG: 2-20 |
@@ -41,20 +42,18 @@ tags:
   - ""
   
 ---
-
-
-
-#####   
-  
+ 
 
 
 
 * * *
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
-* * *
+{% include research-line-in-people.liquid %}
+{% include research-line-in-people.liquid %}
 
-**Publicaciones**
+
+### Publicaciones
 
 

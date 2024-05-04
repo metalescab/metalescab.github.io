@@ -2,6 +2,7 @@
 name: "Eugenia Zelaya"
 page_id: eugenia-zelaya
 picture: /assets/img/team/eugenia-zelaya.jpg
+layout: profile
 lang: es
 role: inv
 permalink: 
@@ -70,10 +71,11 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publicaciones
 
 \[bibtex file=library.bib sort=year order=desc author=Zelaya highlight=Zelaya\]

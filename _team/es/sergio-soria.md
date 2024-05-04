@@ -2,6 +2,7 @@
 name: "Sergio Raúl Soria"
 page_id: sergio-soria
 picture: /assets/img/team/sergio-soria.jpg
+layout: profile
 lang: es
 role: inv
 permalink: 
@@ -56,10 +57,11 @@ tags:
 (2018-2020) Postdoctorado – Neutron imaging group - Forschungs-Neutronenquelle Heinz Maier-Leibnitz (FRM II). Tema de estudio: Study of the hydrogen redistribution in Zirconium alloys under concentration, temperature and stress gradients using neutron imaging.
 
 
-**Líneas de Investigación**
-* * *
+### Líneas de Investigación
 
-**Publicaciones**
+{% include research-line-in-people.liquid %}* * *
+
+### Publicaciones
 * * *
 
 

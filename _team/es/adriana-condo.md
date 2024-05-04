@@ -2,7 +2,7 @@
 name: "Adriana Condó"
 page_id: adriana-condo
 picture: /assets/img/team/adriana-condo.jpg
-layout: default
+layout: profile
 lang: es
 role: inv
 position: "Investigadora Independiente del CONICET"
@@ -19,7 +19,7 @@ phone: "(+54) 0294 444 5290 interno: 5290"
 email: adriana@cab.cnea.gov.ar
 
 social:
-  x_username: adriana
+  x_username:
   linkedin_username:
   google_scholar_userid:
   github_username:
@@ -43,10 +43,10 @@ tags:
 
 
 
-**Líneas de Investigación**
+### Líneas de Investigación
 
+{% include research-line-in-people.liquid %}
 
-
-**Publicaciones**
+### Publicaciones
 
 

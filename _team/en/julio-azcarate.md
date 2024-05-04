@@ -2,6 +2,7 @@
 name: "Julio César Azcárate"
 page_id: julio-azcarate
 picture: /assets/img/team/julio-azcarate.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -55,10 +56,11 @@ en el Intituto de Investigaciones Fisicoquímicas Teóricas y Aplicadas (INIFTA)
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
+{% include research-line-in-people.liquid %}
 * * *
 
-**Publicaciones**
+### Publications
 
 

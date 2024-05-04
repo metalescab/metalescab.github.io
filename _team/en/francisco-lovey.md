@@ -2,6 +2,7 @@
 name: "Francisco Lovey"
 page_id: francisco-lovey
 picture: /assets/img/team/francisco-lovey.jpg
+layout: profile
 lang: en
 role: inv
 permalink: 
@@ -46,7 +47,8 @@ tags:
 
 * * *
 
-**Líneas de Investigación**
+### Research Lines
 
-**Publicaciones**
+{% include research-line-in-people.liquid %}
+### Publications
 
