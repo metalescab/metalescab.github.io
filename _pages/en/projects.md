@@ -1,5 +1,6 @@
 ---
 page_id: projects
+lang: en
 layout: page
 title: projects
 permalink: /projects/

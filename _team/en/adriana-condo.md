@@ -19,7 +19,6 @@ phone: "(+54) 0294 444 5290 interno: 5290"
 email: adriana@cab.cnea.gov.ar
 
 social:
-
   x_username:
   linkedin_username:
   google_scholar_userid:
@@ -31,15 +30,7 @@ social:
 
 education:
   - "Dra. en Física ... "
-  - "Lic. en Física ... "
-
-categories: 
-  - "Researcheres"
-  - "Researcheres-transformacion-martensitica"
-tags: 
-  - "martacer"
-  - "msmmf"
-  
+  - "Lic. en Física ... "  
 ---
 
 

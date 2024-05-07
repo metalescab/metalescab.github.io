@@ -1,9 +1,10 @@
 ---
 page_id: projects
+lang: es
 layout: page
-title: projetos
+title: proyectos
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: Una colección de proyectos interesantes.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

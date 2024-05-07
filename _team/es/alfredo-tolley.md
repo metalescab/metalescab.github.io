@@ -21,7 +21,6 @@ email:
 
 social:
   x_username:
-  
   linkedin_username:
   google_scholar_userid: xXabEFEAAAAJ&hl
   github_username:

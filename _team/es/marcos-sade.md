@@ -21,7 +21,6 @@ email: sade@cab.cnea.gov.ar
 
 social:
   x_username:
-  
   linkedin_username:
   google_scholar_userid: mGVb9Y4AAAAJ&hl
   github_username:

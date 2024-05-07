@@ -21,7 +21,6 @@ email: alejandro.yawny@ib.edu.ar
 
 social:
   x_username:
-  
   linkedin_username:
   google_scholar_userid: W-52j5AAAAAJ&hl
   github_username:

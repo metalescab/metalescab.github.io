@@ -21,7 +21,6 @@ email: paulo.laroca@cab.cnea.gov.ar
 
 social:
   x_username:
-  
   linkedin_username:
   google_scholar_userid: Ge8y_eUAAAAJ&hl
   github_username:

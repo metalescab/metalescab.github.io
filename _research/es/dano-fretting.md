@@ -3,15 +3,12 @@ layout: default
 page_id: fretting
 title: "Daño por fretting"
 lang: es
-thumbnail: /assets/img/research/fretting-1.png
-categories: 
-  - "fretting"
+thumbnail: /assets/img/research/fretting-thumbnail.png
+description: Esa es una prueba de descripción de la linea de investigación. Es importante tratar de describir la linea de investigación en dos o tres oraciones. Varias oraciones para ampliacr el título.
 people:
   - sergio-soria
   - marcos-bergant
   - alejandro-yawny
-tags: 
-  - 
 ---
 
 El _fretting_ es una condición mecánica que existe cuando dos piezas en contacto presentan movimientos relativos de pequeña amplitud, típicamente del orden de decenas de micrones. En aplicaciones industriales suele originarse por vibraciones o por cargas oscilantes en alguno de los componentes en contacto. Una vez presente puede generar diferentes tipos daño localizado, como fisuras, desgaste y oxidación, lo que puede dar lugar a fallas o reducir la vida útil de los componentes en servicio.

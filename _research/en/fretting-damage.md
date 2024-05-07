@@ -3,19 +3,16 @@ layout: default
 page_id: fretting
 title: "Fretting Damage"
 lang: en
-categories: 
-  - "fretting"
+thumbnail: /assets/img/research/fretting-1.png
 people:
   - sergio-soria
   - marcos-bergant
   - alejandro-yawny
-tags: 
-  - ""
 ---
 
 El _fretting_ es una condición mecánica que existe cuando dos piezas en contacto presentan movimientos relativos de pequeña amplitud, típicamente del orden de decenas de micrones. En aplicaciones industriales suele originarse por vibraciones o por cargas oscilantes en alguno de los componentes en contacto. Una vez presente puede generar diferentes tipos de daño localizado, como fisuras, desgaste y oxidación, lo que puede dar lugar a fallas o reducir la vida útil de los componentes en servicio.
 
-<div class="row mt-3">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="/assets/img/research/fretting-1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -26,13 +23,13 @@ El _fretting_ es una condición mecánica que existe cuando dos piezas en contac
 
 Una parte importante del trabajo realizado en esta temática se ha focalizado en el diseño y la fabricación de diferentes dispositivos experimentales. A partir de estos dispositivos, que en su mayoría se montan en una máquina de ensayos servohidráulica, se han logrado realizar experimentos controlados y repetitivos. Para la caracterización del daño en los materiales que resulta de estos ensayos se han utilizado diferentes técnicas, entre las que se destacan la microscopía óptica, la microscopía electrónica de barrido y la de transmisión, así como la perfilometría por interferometría óptica.
 
-<div class="row mt-3">
+<div class="row justify-content-sm-center">
     <div class="col-sm-4
                 ">
         {% include figure.liquid 
         loading="eager" 
         path="/assets/img/research/fretting-2.png" 
-        class="img-fluid rounded z-depth-2" 
+        class="img-fluid rounded z-depth-1" 
         zoomable=true %}
     </div>
 </div>

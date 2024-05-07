@@ -3,13 +3,9 @@ layout: default
 page_id: caracteriacion-imagenes-neutrones
 title: "Caracterización de materiales mediante imágenes con neutrones"
 lang: es
-categories: 
-  - ""
 people:
   - sergio-soria
   - alejandro-yawny
-tags: 
-  - "soria"
 ---
 
 La técnica de imágenes con neutrones o NI (del inglés, neutron imaging) se basa en la atenuación que sufre un haz de neutrones al atravesar una muestra bajo estudio. La relación entre la intensidad del haz incidente sobre la muestra y el haz transmitido está relacionada por la ley de Beer-Lambert. Por ello, la atenuación que sufre el haz esta relacionada principalmente con el coeficiente de atenuación (o sección eficaz macroscópica) Σ de los elementos que componen la muestra y el espesor local de la misma. Esto permite estudiar la estructura interna de una muestra o una pieza así como cambios composicionales dentro de la misma. Debido a que los neutrones interactúan con los núcleos de los átomos, la atenuación que sufre un haz de neutrones es muy diferente de la que experimentan los rayos X (que interactúan con la nube de electrones del átomo). Por ello y debido a su mayor poder de penetración, la información obtenida por NI es diferente y complementaria a la obtenida al utilizar imágenes con rayos X.

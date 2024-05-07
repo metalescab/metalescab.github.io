@@ -2,16 +2,13 @@
 layout: default
 page_id: aceros-base-fe-mn
 title: "Transformaciones martensíticas en aceros con base Fe-Mn"
-categories: 
-  - "martlineas"
+lang: es
 people:
   - adriana-condo
   - armando-guillermet
   - lina-guerrero
   - paulo-laroca
   - marcos-sade
-tags: 
-  - ""
 ---
 
 En las aleaciones de base Fe, los átomos se suelen ordenar de tres formas: cúbica centrada en las caras (FCC), hexagonal compacta (HCP) y cúbica centrada en el cuerpo (BCC). Las zonas de metal en la que los átomos se encuentran ordenados como FCC, reciben el nombre de **austenita** y las otras dos se denominan **martensita**. En general, al variar la temperatura del metal en estudio, es posible obtener estructuras martensíticas o austeníticas.

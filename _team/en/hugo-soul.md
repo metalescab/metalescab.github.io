@@ -21,7 +21,6 @@ email: hugo.soul@cab.cnea.gov.ar
 
 social:
   x_username:
-  
   linkedin_username:
   google_scholar_userid: 3NYNINAAAAAJ&hl
   github_username:

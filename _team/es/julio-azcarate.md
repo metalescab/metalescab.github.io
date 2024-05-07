@@ -21,7 +21,6 @@ email: jcazcarate@cab.cnea.gov.ar
 
 social:
   x_username:
-  
   linkedin_username: julio-césar-azcárate-09a7289
   google_scholar_userid: oce1NVUAAAAJ&hl
   github_username: jcazcarate

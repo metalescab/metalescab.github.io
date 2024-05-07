@@ -21,7 +21,6 @@ email: marcos.bergant@cab.cnea.gov.ar
 
 social:
   x_username:
-  
   linkedin_username: marcos-bergant-869b1376
   google_scholar_userid:
   github_username:
