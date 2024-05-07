@@ -1,33 +1,60 @@
 ---
-page_id: actuators-mmf
-page_id: actuadores
+page_id: actuadores-mmf
 layout: default
 title: "MMFs utilizados como actuadores lineales"
 lang: es
-categories: 
-  - "actuadores-mmf"
+thumbnail: /assets/img/research/actuadores-mmf-thumbnail.png
 people:
-  - juan-demastro
+  - juan-delmastro
   - alejandro-yawny
-tags: 
-  - "actlinmmf"
 ---
 
 ## **Sistemas de actuación para máquinas de ensayos mecánicos**
 
 La realización de ensayos mecánicos in-situ permite la observación de la muestra mediante distintos instrumentos (microscopios ópticos, de transmisión, de barrido, lupa estereoscópica, etc.) mientras se somete la muestra a distintas condiciones de carga. Esto elimina la necesidad de desmontar la muestra para su posterior análisis y permite relacionar fenómenos superficiales con el comportamiento mecánico del material.
 
-En la División se ha desarrollado un dispositivo capaz de llevar a cabo este tipo de ensayos, actuado por MMFs, el cual se presenta en la siguiente figura:  
-![](/assets/img/research/actuadores-mmf-1.png)
-
+En la División se ha desarrollado un dispositivo capaz de llevar a cabo este tipo de ensayos, actuado por MMFs, el cual se presenta en la siguiente figura:
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/actuadores-mmf-1.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
 
 Este dispositivo presenta cintas de MMF que trabajan de forma protagónica (al contraerse traccionan la muestra) y otras antagónicas (al contraerse comprimen la muestra). Esto permite un mayor rango de actuación y velocidad de respuesta del dispositivo. Mediante técnicas de control adaptativo y una electrónica dedicada se lograron realizar programas de carga y desplazamiento variables. En la División se trabaja en nuevos prototipos que puedan resultar más compactos y capaces de alcanzar una mayor rango de cargas y desplazamientos.
-
-![](/assets/img/research/actuadores-mmf-2.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/actuadores-mmf-2.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
 
 Otro interés de la División es explorar el potencial de estos materiales para el desarrollo de actuadores independientes, capaces de ser montados en diversos dispositivos. Con este objetivo, se ha desarrollado un actuador de mayor capacidad que el sistema anterior, destinado a trabajar en una máquina estacionaria de brazo de palanca. Con unas cintas de mayor sección y un sistema de reinicio por medio de resortes en compresión, este actuador es capaz de aplicar una carga de 500 N en un rango de 12 mm.
 
-                                                                     ![](/assets/img/research/actuadores-mmf-4.png) ![](/assets/img/research/actuadores-mmf-3.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-2
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/actuadores-mmf-4.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+    <div class="col-sm-5
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/actuadores-mmf-3.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
 
 ## Publicaciones relacionadas  
 
