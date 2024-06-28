@@ -5,21 +5,20 @@ picture: /assets/img/team/hugo-soul.jpg
 layout: profile
 lang: en
 role: inv
-permalink: 
 position: "Researcher Adjunto de  CONICET"
 teaching: ""
 location:
   office: "705"
   building: "Anexo Propiedades Mecánicas, Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5100 interno: 5537"
-email: hugo.soul@cab.cnea.gov.ar
 
 social:
+  email: hugo.soul@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid: 3NYNINAAAAAJ&hl

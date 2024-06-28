@@ -5,21 +5,20 @@ picture: /assets/img/team/jorge-pelegrina.jpg
 layout: profile
 lang: es
 role: inv
-permalink: 
 position: "Investigador Independiente del CONICET"
 teaching: "Jefe de Trabajos Prácticos del Instituto Balseiro"
 location:
   office: "512"
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5272 interno: 5272"
-email: jlp201@cab.cnea.gov.ar
 
 social:
+  email: jlp201@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

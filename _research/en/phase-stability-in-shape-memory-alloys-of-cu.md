@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: estabilidad-fase
 title: "Phase Stability in Shape Memory Alloys of Cu"
 lang: en
@@ -23,4 +23,4 @@ With a change in the relative stability of the phases, the temperatures and stre
 
 To understand and control stabilization, both experimental work and simulations are necessary. Experimental work involves analyzing the effect of heat treatments and aging on the characteristics of the martensitic transformation. Simulations attempt to elucidate the possible mechanisms of atomic diffusion that, by changing the arrangement of atoms within the crystal structure, cause the relative stability of the phases to change.
 
-{% include people-in-research-line.liquid %}
+

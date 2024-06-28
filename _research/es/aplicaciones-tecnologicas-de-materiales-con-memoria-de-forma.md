@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: aplicaciones-tecnologicas-mmf
 title: "Aplicaciones Tecnológicas de Materiales con Memoria de Forma"
 lang: es
@@ -50,6 +50,6 @@ Las distintas aplicaciones tecnológicas de MMFs desarrolladas en la División p
 
 ![](/assets/img/research/MMF6.png)
 
-{% include people-in-research-line.liquid %}
+
 
 Publicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!

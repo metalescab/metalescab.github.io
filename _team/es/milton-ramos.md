@@ -5,21 +5,20 @@ picture: /assets/img/team/milton-ramos.jpg
 layout: profile
 lang: es
 role: tec
-permalink: 
 position: "Técnico de CNEA"
 teaching: ""
 location:
   office: "108"
   building: "Anexo Propiedades Mecánicas, Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5100 interno: 5306"
-email: milton.ramos@cab.cnea.gov.ar
 
 social:
+  email: milton.ramos@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

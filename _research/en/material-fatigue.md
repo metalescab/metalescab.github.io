@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: research-line
 page_id: fatiga
 title: "Material Fatigue"
 lang: en
+thumbnail: 
 categories: 
   - ""
 people:
@@ -21,7 +22,7 @@ Material fatigue is one of the mechanisms of damage in nuclear components, the a
 
 The Physical Metallurgy Division (CAB-CNEA) investigates the phenomenon of fatigue applied to various materials, such as SA533 and SA508 pressure vessel steels, AISI 316L stainless steel, Nitronic steels, Zry-4 zirconium alloys, and AA 6061 T6 aluminum used in nuclear applications, shape memory materials based on Ni-Ti used in medical applications, and fatigue in materials manufactured by additive manufacturing.
 
-![Fatigue Testing](https://lh6.googleusercontent.com/7vBItxF_6Lql_aj8IlxvN7S_5J0dyiWtzqVjvCmb2MkmdGbIcfj0V58EHIw7DHIVQLUmmWDj-x2aqcVcEDSEpPRmrTqCndkcd3x3MLzWHEztFd9yGwdMMIIyf_b68MwlUwGDSR4)
+![Fatigue Testing]
 
 The research group has suitable experimental infrastructure for various experiments. This includes two servo-hydraulic MTS machines with a loading capacity of 100 kN (MTS 810 and MTS Landmark 370) capable of conducting tests at temperatures up to 540°C, and two electromechanical Instron testing machines (Instron 1123 and Instron 5567) with a significant variety of accessories.
 
@@ -29,7 +30,8 @@ In recent years, the acquisition of digital image correlation (DIC) equipment an
 
 Currently, the possibility of applying infrared thermography (IRT) to fatigue characterization of various materials is being studied. This aims to contribute to the understanding of fatigue phenomena through a detailed study of thermal evolution during fatigue tests, as well as to evaluate the feasibility of developing IRT-based tools for in-situ crack detection.
 
-![Infrared Thermography](https://lh3.googleusercontent.com/e4FRgtfjIE_qxnOgbATscynbc5DUWbREr_uSZx1avnKpey5-kzxki_40rWryhGh35We9zsUQ_Xs7vZwhGiXEJzru6MF-CniCPAVYZZEAriZM7_WsgnbkbHmxXBOL8FyU8JIO16A)
+Figura Temorgrafía Infraroja
+
 
 **Techniques Used:**
 
@@ -47,4 +49,4 @@ Currently, the possibility of applying infrared thermography (IRT) to fatigue ch
 
 - Bustos, R. Ignacio- 'Environmental Effects on Fatigue Design of Class 1 Nuclear Components'. Postgraduate Thesis (Master's in Engineering). Balseiro Institute (2018).
 
-{% include people-in-research-line.liquid %}
+

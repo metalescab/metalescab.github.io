@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: deformacion-plastica-severa
 title: "Deformación plástica severa"
 lang: es
@@ -33,7 +33,7 @@ Los procesos SPD también afectan la precipitación: dependiendo del estado inic
 En esta línea de investigación, usamos procesos termomecánicos para preparar las muestras (secuencias específicas de procesos de deformación y tratamientos térmicos) y técnicas de caracterización de materiales, tales como: ensayos de tracción, difracción de rayos-x y microscopía electrónica de transmisión.
 
 
-{% include people-in-research-line.liquid %}
+
 
 
 **Colaboradores Externos:**

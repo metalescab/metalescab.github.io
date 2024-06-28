@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: radiation-damage-nano
 title: "Daño por Irradiación en Nanopartículas Metálicas"
 lang: es
@@ -26,7 +26,7 @@ El haz de electrones del TEM producen excitación de los electrones de la muestr
 
 ##### **Integrantes de la División Física de Metales**
 
-{% include people-in-research-line.liquid %}
+
 
 
 ##### **Integrantes de otras Divisiones y/o Instituciones**

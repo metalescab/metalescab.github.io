@@ -11,15 +11,15 @@ teaching: "Jefe de Trabajos Prácticos del Instituto Balseiro"
 location:
   office: "705"
   building: "Anexo Propiedades Mecánicas, Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5100 interno: 5537"
-email: marcos.bergant@cab.cnea.gov.ar
 
 social:
+  email: marcos.bergant@cab.cnea.gov.ar
   x_username:
   linkedin_username: marcos-bergant-869b1376
   google_scholar_userid:

@@ -1,19 +1,22 @@
 ---
-layout: default
+layout: research-line
 page_id: aceros-base-fe-mn
 title: "Martensitic Transformations in Fe-Mn Based Steels"
 lang: en
-categories: 
-  - "martensitic-transformations"
+# thumbnail: /assets/img/research/aceros-base-fe-mn-thumbnail.png
 people:
   - adriana-condo
   - armando-guillermet
   - lina-guerrero
   - paulo-laroca
   - marcos-sade
+categories: 
+  - "martensitic-transformations"
 tags: 
   - ""
 ---
+
+
 
 In Fe-based alloys, atoms tend to arrange in three forms: face-centered cubic (FCC), hexagonal close-packed (HCP), and body-centered cubic (BCC). Regions of metal where atoms are arranged as FCC are called **austenite**, while the other two are referred to as **martensite**. Generally, by varying the temperature of the metal under study, it is possible to obtain martensitic or austenitic structures.
 
@@ -25,7 +28,7 @@ This topic is directly related to various functional properties and/or other top
 
 **Researchers working on this topic:**
 
-{% include people-in-research-line.liquid %}
+
 
 
 **Related Techniques and Equipment:**

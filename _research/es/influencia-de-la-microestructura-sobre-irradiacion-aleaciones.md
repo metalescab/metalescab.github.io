@@ -1,27 +1,52 @@
 ---
-layout: default
+layout: research-line
 page_id: microestructuras
 title: "Influencia de la microestructura sobre efectos de irradiación en aleaciones metálicas"
-categories: 
-  - "aleaciones-al"
-  - ""
+
 people:
   - alfredo-tolley
+
+categories: 
+
 tags: 
   - "irrad_micro_al"
 ---
 
+
+
 Se estudia la influencia de la microestructura de aleaciones metálicas sobre los daños generados por irradiación con iones. El objetivo es establecer los mecanismos de daño y la forma de mitigar el mismo mediante el diseño de una microestructura adecuada, con el fin de contribuir conceptualmente al desarrollo aleaciones con alta resistencia a la irradiación para aplicaciones en reactores de fisión o de fusión. Actualmente esta línea se desarrolla en colaboración con el Dr. Esteban Sánchez de la División Física de Superficies del Centro Atómico Bariloche.
 
-![](/assets/img/research/alfy7.png)
-
-![](/assets/img/research/alfy6.png)
-
-![](/assets/img/research/alfy5.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-7 mt-auto"
+        >
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/microestructuras-1.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+        <!--  -->
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/microestructuras-2.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+    <div class="col-sm-5 mt-md-auto
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/microestructuras-3.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+a) Image de alta resolución de defectos inducidos por irradiación con iones de Xe<sup>-</sup> con una energía de 230 MeV. b) Detalle de la zona señalada en a). [E. Zelaya et al. (2009)]. c) Ampollas en Al generadas por irradiación por implantación de He; fluencia: 8,7 x 10<sup>16</sup> iones/cm<sup>2</sup>. d) Detalle con mayor magnifcación de la superficie irradiada. [S. Soria et al. (2015)]. e) Burbujas facetadas de He en Al. Fluencia: 2,6 x 10^{17}. [D. Rondón et al. (2019)]
+</div>
 
 **Trabajan en el tema**
 
-{% include people-in-research-line.liquid %}
+
 
 Esteban A. Sánchez (Física de Superficies)
 

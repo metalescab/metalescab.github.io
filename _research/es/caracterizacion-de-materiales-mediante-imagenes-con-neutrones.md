@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: caracteriacion-imagenes-neutrones
 title: "Caracterización de materiales mediante imágenes con neutrones"
 lang: es
@@ -28,6 +28,4 @@ Esta línea de investigación se enfoca en el uso de las técnicas de NI aplicad
     ductile iron (ADI) using neutron diffraction and transmission techniques, Journal of Materials Science 56 (2021) 5296-5306.
 - S.R. Soria, X.H. Li, M. Schulz, M. Boin, M. Hofmann, Determination of martensite content and mapping phase distribution on Austempered Ductile Iron using energy- selective neutron imaging, Materials Characterization 166 (2020) 110453.
 
-## Trabajan en el tema
 
-{% include people-in-research-line.liquid %}

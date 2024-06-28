@@ -10,15 +10,15 @@ teaching:
 location:
   office: "505"
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: " "
-email: francisco.aldana@ib.edu.ar
 
 social:
+  email: francisco.aldana@ib.edu.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

@@ -15,6 +15,10 @@ footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 latest_posts: últimos artículos
 news: novedades
 selected_publications: publicaciones seleccionadas
+related_publications: publicaciones relacionadas
+research_lines: líneas de investigación
+working_on: trabajan en este tema
+techniques: técnicas y equipos asociados
 site_description: Un tema simple para académicos. Basado en el diseño de [*folio](https://github.com/bogoli/-folio).
 archive_category: un archivo de publicaciones de esta categoría
 archive_tag: un archivo de publicaciones con esta etiqueta

@@ -1,18 +1,19 @@
 ---
-layout: default
+layout: research-line
 page_id: tenacidad-fractura
 title: "Evaluation of Fracture Toughness and Structural Integrity of Engineering Materials and Components"
 lang: en
-categories: 
-  - ""
-  - "tenfraclineas"
+thumbnail: /assets/img/research/tenacidad-fractura-thumbnail.png
 people:
   - marcos-bergant
   - alejandro-yawny
+
+categories: 
 tags: 
-  - "bergant"
-  - "yawny"
+  
 ---
+
+
 
 Most engineering components are susceptible to the presence of cracks that can occur during manufacturing or during the service life of the structure, which can eventually lead to unforeseen failures. Given the negative impact associated with these cracks, structural integrity analyses based on fracture mechanics are essential for critical components in various industries.
 
@@ -20,15 +21,35 @@ The research line associated with fracture mechanics comprehensively addresses t
 
 In Figure 1a), fracture toughness tests on nuclear steam generator tubes are observed, carried out on one of the servo-hydraulic machines available in the mechanical properties laboratory. Due to the reduced dimensions of the tubes, this study required the development of innovative methodologies, specimens, and experimental techniques [1-4]. The results obtained were applied to analyses of circumferential and longitudinal cracks in operational tubes, Figures 1b) and 1c) [5-7].
 
-![Fracture Toughness Tests](/assets/img/research/tenacidad-1.png)
-
-Figure 1. Fracture toughness tests on nuclear steam generator tubes
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/tenacidad-fractura-1.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Fracture toughness tests on nuclear steam generator tubes
+</div>
 
 Another line of work is related to the characterization of fracture toughness of ferritic steel SA-508, Figure 2a), which is being used in the construction of the pressure vessel of the CAREM-25 reactor, Figure 2b). The obtained curves are applied in analyses of cracks in process penetrations and dissimilar welds of the pressure vessel, Figure 2b), using different methodologies of elastoplastic fracture mechanics, Figure 2c) [8].
 
-![Fracture Toughness Characterization](/assets/img/research/tenacidad-2.png)
-
-Figure 2. Applications of fracture mechanics to the pressure vessel of the CAREM-25 reactor
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/tenacidad-fractura-2.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Figure 1: Applications of fracture mechanics to the pressure vessel of the CAREM-25 reactor
+</div>
 
 Another current research topic consists of evaluating the fracture toughness in aluminum alloy sheets and their welds obtained by the friction stir welding process. In this study, different toughness parameters obtained from load-displacement records and optical measurements are evaluated to contribute to the development of appropriate characterization techniques for these materials. This research line is carried out in collaboration with the Welding Technology and Mechanical Behavior of Metallic Materials Group at FIUBA.
 
@@ -38,7 +59,7 @@ Another current research topic consists of evaluating the fracture toughness in 
 - Digital image correlation (DIC)
 - Scanning electron microscopy (SEM)
 
-{% include people-in-research-line.liquid %}
+
 
 **Members of Other Divisions and/or Institutions**
 

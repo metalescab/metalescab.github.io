@@ -39,25 +39,12 @@ nav_order: 4
             <a class="post-title" href="{{ line.url | relative_url }}">{{ line.title }}</a>
           {% elsif line.redirect contains '://' %}
             <a class="post-title" href="{{ line.redirect }}" target="_blank">{{ line.title }}</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
           {% else %}
             <a class="post-title" href="{{ line.redirect | relative_url }}">{{ line.title }}</a>
           {% endif %}
         </h3>
         <p>{{ line.description }}</p>
-        <p class="post-meta">
-          {{ read_time }} min read &nbsp; &middot; &nbsp;
-          {% include date_format.liquid format="long" date_from=post %}
-          {% if line.external_source %}
-          &nbsp; &middot; &nbsp; {{ line.external_source }}
-          {% endif %}
-        </p>
         <p class="post-tags">
-          <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-            <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
             {% if tags != "" %}
             &nbsp; &middot; &nbsp;
               {% for tag in line.tags %}

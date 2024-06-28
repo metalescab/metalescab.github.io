@@ -1,15 +1,18 @@
 ---
 page_id: actuadores-mmf
-layout: default
+layout: research-line
 title: "MMFs utilizados como actuadores lineales"
 lang: es
 thumbnail: /assets/img/research/actuadores-mmf-thumbnail.png
+description: Los ensayos mecánicos in-situ permiten observar las muestras mediante diversos microscopios mientras se les aplica carga, eliminando la necesidad de desmontarlas. La División ha desarrollado un dispositivo con MMFs para estos ensayos, mejorando el rango y velocidad de respuesta. Se trabaja en nuevos prototipos más compactos y potentes.
 people:
   - juan-delmastro
   - alejandro-yawny
+techniques:
+  - Caracterización mecánica con cámara ambiental
+  - Prototipado rápido mediante impresión 3D
 ---
 
-## **Sistemas de actuación para máquinas de ensayos mecánicos**
 
 La realización de ensayos mecánicos in-situ permite la observación de la muestra mediante distintos instrumentos (microscopios ópticos, de transmisión, de barrido, lupa estereoscópica, etc.) mientras se somete la muestra a distintas condiciones de carga. Esto elimina la necesidad de desmontar la muestra para su posterior análisis y permite relacionar fenómenos superficiales con el comportamiento mecánico del material.
 
@@ -61,11 +64,6 @@ Otro interés de la División es explorar el potencial de estos materiales para 
 - 2013 — 2014: Proyecto Integrador de Ingeniería Cristobal Carracedo, Ingeniería Mecánica, Instituto Balseiro. Título: Desarrollo de un dispositivo para la realización de ensayos mecánicos in-situ en probetas de dimensiones reducidas. Director: A. Yawny, Codirector: L. Ortiz.
 - 2018 — 2019: Proyecto Integrador de Ingeniería Rodrigo Lopez, Ingeniería Mecánica, Instituto Balseiro. Título: Diseño de un actuador de material con memoria de forma de NiTi para una máquina de creep-fatiga. Director: A. Yawny, Codirector: J. Delmastro.
 
-## Técnicas y equipamiento asociado
 
-- Caracterización mecánica con cámara ambiental
-- Prototipado rápido mediante impresión 3D
 
-## Trabajan en el tema
 
-{% include people-in-research-line.liquid %}

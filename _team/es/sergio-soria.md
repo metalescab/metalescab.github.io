@@ -5,21 +5,20 @@ picture: /assets/img/team/sergio-soria.jpg
 layout: profile
 lang: es
 role: inv
-permalink: 
 position: "Investigador Asistente CONICET"
 teaching: ""
 location:
   office: ""
   building: "Anexo Propiedades Mecánicas, Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: ""
-email: sergio.soria@cab.cnea.gov.ar
 
 social:
+  email: sergio.soria@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

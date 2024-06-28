@@ -7,17 +7,14 @@
           include figure.liquid
           loading="eager"
           path=member.picture
-          sizes = "150px"
+          sizes = "auto"
           alt="member thumbnail"
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title text-titlecase">{{ member.name }}</h2>
+        <h3 class="card-title text-titlecase">{{ member.name }}</h3>
         <p class="card-text">{{ member.position }}</p>
         <div class="row ml-1 mr-1 p-0">
-          {% if member.email %}
-            <a href="mailto:{{ member.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
-          {% endif %}
           {% if member.social %}
             {% include member_social.liquid %}
           {% endif %}

@@ -1,36 +1,76 @@
 ---
-layout: default
+layout: research-line
 page_id: ortopedia
 title: "Aplicaciones en ortopedia de los materiales con memoria de forma"
 lang: es
-categories: 
-  - "aplicacionesortopedia"
+thumbnail: /assets/img/research/ortopedia-thumbnail.png
+description: Los materiales con memoria de forma (SMAs) tienen propiedades mecánicas únicas adecuadas para aplicaciones ortopédicas y médicas. Cuando se deforman, los SMAs pueden soportar grandes deformaciones con un mínimo aumento de carga, mostrando un comportamiento pseudoelástico. Esta propiedad permite un estrés correctivo constante en ortesis, ayudando en el tratamiento de condiciones como la deformidad de pie equinovaro.
 people:
     - gaston-alonso
     - graciela-bertolino
     - alejandro-yawny
+categories: 
+
 tags: 
   - ""
 ---
 
+
+
 En la División Física de Metales del CAB se cuenta con una extensa experiencia en materiales con memoria de forma (SMA). Estos materiales presentan propiedades mecánicas particulares, que los hacen muy interesantes para aplicaciones en ortopedia y medicina, como se ilustra a continuación con algunos ejemplos de los temas que se están investigando.
 
-**¿Qué ocurre cuando se aplica una carga mecánica a una SMA?**
+#### ¿Qué ocurre cuando se aplica una carga mecánica a una SMA?
 
-Consideremos por ejemplo lo que ocurre cuando se impone una deformación $\\Delta l$ sobre un cuerpo (unidimensional) cualquiera. A medida que la deformación aplicada es mayor, mayor es el esfuerzo $F$ que debe aplicarse para sostenerla. En un material típico de ingeniería, esta relación es lineal y está limitada por la deformación plástica del mismo. Los materiales con memoria de forma exhiben un comportamiento especial: llegado un nivel de deformación (o de carga aplicada), la deformación puede continuar hasta cerca de un 8 % de la longitud inicial del cuerpo sin un incremento significativo de la carga aplicada (decimos que el comportamiento es _pseudoelástico_). Si ahora redujéramos la deformación aplicada, veríamos que la ocurre algo similar en sentido  
-inverso, como se muestra en la figura siguiente $\\Downarrow$
+Consideremos por ejemplo lo que ocurre cuando se impone una deformación $$\\Delta l$$ sobre un cuerpo (unidimensional) cualquiera. A medida que la deformación aplicada es mayor, mayor es el esfuerzo $F$ que debe aplicarse para sostenerla. En un material típico de ingeniería, esta relación es lineal y está limitada por la deformación plástica del mismo. Los materiales con memoria de forma exhiben un comportamiento especial: llegado un nivel de deformación (o de carga aplicada), la deformación puede continuar hasta cerca de un 8 % de la longitud inicial del cuerpo sin un incremento significativo de la carga aplicada (decimos que el comportamiento es _pseudoelástico_). Si ahora redujéramos la deformación aplicada, veríamos que la ocurre algo similar en sentido  
+inverso, como se muestra en la figura siguiente $$\\Downarrow$$
 
-![](/assets/img/research/ortopedia_fig1-300x236.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/ortopedia-1.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+Ejemplo del comportamiento pseudoelástico en SMAs
+</div>
 
-**¿Para qué serviría esto?**
+#### ¿Para qué serviría esto?
 
 Esta propiedad es de interés para aplicaciones en que es necesario mantener un esfuerzo de manera sostenida en el tiempo, sobre puntos que se desplazan apreciablemente. Consideremos por ejemplo el caso de una deformidad del pie en equinovaro:
 
-![](/assets/img/research/fig2-300x217.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/ortopedia-2.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Deformidad del pie en equinovaro
+</div>
 
 Esta deformidad se caracteriza por una desviación en extensión (flecha azul), acompañada por una desviación en varo (flecha roja), acompañada frecuentemente por una supinación (flecha verde). La potencialidad de las aleaciones con memoria de forma para tratar este tipo de problemas reside en que es posible hacer una ortesis capaz de ejercer un esfuerzo correctivo _aproximadamente constante,_ manteniendo la carga aplicada a medida que progresa la corrección, sin necesidad de realizar ajustes, como ocurre con los materiales convencionales, como se ilustra a continuación:
 
-![](/assets/img/research/ortopedia_fig3_3-2-300x200.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/ortopedia-3.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Ortesis para el tratamiento de deformidades del pie
+</div>
 
 En la división se trabaja en soluciones para este y otros problemas de similares características, como son:
 
@@ -40,24 +80,56 @@ En la división se trabaja en soluciones para este y otros problemas de similare
 - Genu varo - Genu valgo
 - Pie equinovaro
 
-**¿Y si ahora aumentamos la temperatura de la aleación?**
+#### ¿Y si ahora aumentamos la temperatura de la aleación?
 
-Si ahora aumentáramos la temperatura de una SMA que ha sido deformada hasta entrar en régimen pseudoelástico, sin variar su deformación, observaríamos que la carga que es necesario sostener aumenta. Este calentamiento podría hacerse por ejemplo por efecto Joule, al hacer pasar una corriente eléctrica por el mismo. Esto se muestra esquemáticamente en la figura siguiente, en que la carga se mueve del punto (1) al punto (2):![](/assets/img/research/ortopedia_fig4-300x201.png)
+Si ahora aumentáramos la temperatura de una SMA que ha sido deformada hasta entrar en régimen pseudoelástico, sin variar su deformación, observaríamos que la carga que es necesario sostener aumenta. Este calentamiento podría hacerse por ejemplo por efecto Joule, al hacer pasar una corriente eléctrica por el mismo. Esto se muestra esquemáticamente en la figura siguiente, en que la carga se mueve del punto (1) al punto (2):
 
-**¿Y con esto?**
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/ortopedia-4.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    fecto del aumento de la temperatura en un SMA
+</div>
 
-El efecto descrito anteriormente muestra una de las potencialidades más grandes de las SMAs. Con alambres o cintas de estos materiales es posible hacer actuadores muy compactos, que permitan aplicar una carga controlada sobre un miembro o una prótesis, para asistir el movimiento de una parte del cuerpo, por ejemplo una mano:![](/assets/img/research/ortopedia_fig5-201x300.png)Se está estudiando cómo utilizar el principio aquí ilustrado también para el desarrollo de ortesis activas de asistencia a la marcha.
+#### ¿Y con esto?
 
-- **Trabajos de colaboración activos:**
-    - 2019-2020 : Se está desarrollando una ortesis pasiva que utiliza alambres de NiTi para mejorar el proceso de rehabilitación neurológica de pacientes que sufren secuelas de ACVs.
-    - 2017-2020 : Se trabaja para optimizar las siguientes soluciones basadas en SMA's:
-        -  AFO para paciente de 4 años de edad con pie equino-varo.
-        - AFO para paciente de 2 años de edad con pie equino-varo.
-        - FO para paciente de 13 años de edad con pie varo.
-    - Ortesis pasiva de rodilla, sin posibilidad de articulación para paciente de 5 años de edad con acondroplasia congénita y genu varo.
-    - Ortesis pasiva de rodilla, con posibilidad de flexión, para paciente de 12 años de edad con genu valgo.
+El efecto descrito anteriormente muestra una de las potencialidades más grandes de las SMAs. Con alambres o cintas de estos materiales es posible hacer actuadores muy compactos, que permitan aplicar una carga controlada sobre un miembro o una prótesis, para asistir el movimiento de una parte del cuerpo, por ejemplo una mano:
 
-{% include people-in-research-line.liquid %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4
+                ">
+        {% include figure.liquid 
+        loading="eager" 
+        path="/assets/img/research/ortopedia-5.png" 
+        class="img-fluid rounded z-depth-1" 
+        zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Actuador SMA para asistir el movimiento de una mano
+</div>
+
+Se está estudiando cómo utilizar el principio aquí ilustrado también para el desarrollo de ortesis activas de asistencia a la marcha.
+
+#### Trabajos de colaboración activos
+- 20190 : Se está desarrollando una ortesis pasiva que utiliza alambres de NiTi para mejorar el proceso de rehabilitación neurológica de pacientes que ensecuelas de ACVs.
+17-2020 : Se trabaja para optimizar las siguientes soluciones basadas en SMA's:
+-  AFO para paciente de 4 años de edad con pie equino-varo.
+- AFO para paciente de 2 años de edad con pie equino-varo.
+- FO para paciente de 13 años de edad con pie varo.
+tesis pasiva de rodilla, sin posibilidad de articulación para paciente de 5 años de edad con acondroplasia congénita y genu varo.
+- Ortesis pasiva de rodilla, con posibilidad de flexión, para paciente de 12 años de edad con genu valgo.
+
+#### Investigadores que trabajan en este tema
+
+
 
 Publicaciones relacionadasTécnicas y equipamiento asociado¡Trabajá en el tema!
 

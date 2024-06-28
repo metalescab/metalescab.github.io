@@ -5,21 +5,20 @@ picture: /assets/img/team/eugenia-zelaya.jpg
 layout: profile
 lang: en
 role: inv
-permalink: 
 position: "Researcher Independiente de CONICET"
 teaching: ""
 location:
   office: "11"
   building: " Anexo del Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5548 interno: 5548"
-email: zelaya@cab.cnea.gov.ar
 
 social:
+  email: zelaya@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

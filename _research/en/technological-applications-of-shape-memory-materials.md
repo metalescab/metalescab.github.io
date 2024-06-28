@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: aplicaciones-tecnologicas-mmf
 title: "Technological Applications of Shape Memory Materials"
 lang: en
@@ -50,7 +50,7 @@ The different technological applications of SMMs developed in the Division can b
 
 ![](/assets/img/research/MMF6.png)
 
-{% include people-in-research-line.liquid %}
+
 
 Related publications
 Associated techniques and equipment

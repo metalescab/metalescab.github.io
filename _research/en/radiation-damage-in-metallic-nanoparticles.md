@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: radiation-damage-nano
 title: "Radiation Damage in Metallic Nanoparticles"
 lang: en
@@ -25,7 +25,7 @@ The electron beam of the TEM excites the electrons of the sample, which can gene
 
 ##### **Members of the Metals Physics Division**
 
-{% include people-in-research-line.liquid %}
+
 
 
 ##### **Members of Other Divisions and/or Institutions**

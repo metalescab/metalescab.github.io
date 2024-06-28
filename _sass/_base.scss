@@ -195,6 +195,10 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  .background-profile {
+    background-color: var(grey);
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -205,7 +209,14 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .social-profile {
+    text-align: center;
+    font-size: 2em;
+  }
 }
+
+
 
 .profile.float-right {
   margin-left: 1rem;
@@ -226,6 +237,9 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
+
+// post description
 
 .post-description {
   margin-bottom: 2rem;
@@ -670,10 +684,16 @@ footer.sticky-bottom {
     }
   }
 
+  $image-width: 170px;
+
   .card {
     img {
-      max-width: 150px;
-      // width: 100%;
+      display: block;
+      margin: auto;
+      padding: 10px;
+      width: $image-width;
+      height: auto;
+      max-width: 80%; /* optional, to prevent image from overflowing */
     }
   }
 
@@ -693,14 +713,6 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
 }
 
 
@@ -887,6 +899,12 @@ footer.sticky-bottom {
     }
   }
 }
+
+// agregados para highlight authors
+.highlight {
+  background-color: yellow;
+}
+
 
 // Rouge Color Customization
 figure.highlight {
@@ -1189,6 +1207,103 @@ swiper-container {
     border-bottom: 2px solid var(--global-text-color);
   }
 }
+
+// tabs
+
+.tab {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.tab > * {
+  flex: none;
+  padding-left: 20px;
+  position: relative;
+}
+
+.tab > * > a {
+  display: block;
+  text-align: center;
+  padding: 9px 20px;
+  color: #999;
+  border-bottom: 2px solid transparent;
+  border-bottom-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: color .1s ease-in-out;
+  line-height: 20px;
+}
+
+.tab > .active > a {
+  color:#222;
+  border-color: #1e87f0;
+}
+
+.tab > li > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 0;
+}
+
+.tab-content > li {
+  display: none;
+}
+.tab-content > li.active {
+  display: block;
+}
+
+/* The 2 following blocks can be removed if the script is not configured to show the toast message */
+#jekyll-tabs-copy-to-clipboard-message {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 50%;
+  bottom: 30px;
+}
+
+#jekyll-tabs-copy-to-clipboard-message.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+
+
+// --------------------------------------------------------------
+// Aqui pongo varios agregados de etilo
+
+.social-icon {
+  margin-right: 10px; /* agrega un espaciado en los iconos de redes sociales de cada "member" */
+}
+
+.social-icons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons-list li {
+  margin-bottom: 10px;
+}
+
+.social-icon i {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
 
 
 // Esto que sigue es una prueba

@@ -5,21 +5,20 @@ picture: /assets/img/team/francisco-lovey.jpg
 layout: profile
 lang: es
 role: inv
-permalink: 
 position: "Investigador Consulto de la CNEA"
 teaching: ""
 location:
   office: ""
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5147 interno: 5147"
-email: lovey@cab.cnea.gov.ar
 
 social:
+  email: lovey@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

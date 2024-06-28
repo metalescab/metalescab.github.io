@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: caracteriacion-imagenes-neutrones
 title: "Characterization of Materials Using Neutron Imaging"
 lang: en
@@ -32,4 +32,4 @@ This line of research focuses on the use of NI techniques applied to the study o
 
 ## Researchers Working on the Topic
 
-{% include people-in-research-line.liquid %}
+

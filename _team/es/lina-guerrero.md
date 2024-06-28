@@ -5,21 +5,20 @@ picture: /assets/img/team/lina-guerrero.jpg
 layout: profile
 lang: es
 role: inv
-permalink: 
 position: "Investigadora Asistente de CONICET"
 teaching: ""
 location:
   office: ""
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: ""
-email: lina.guerrero@cab.cnea.gov.ar
 
 social:
+  email: lina.guerrero@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid: 37JFXEwAAAAJ&hl

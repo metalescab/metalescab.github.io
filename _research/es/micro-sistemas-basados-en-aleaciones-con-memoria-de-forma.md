@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_is: microsistemas
 title: "Micro-sistemas basados en aleaciones con memoria de forma"
 categories: 
@@ -32,7 +32,7 @@ Ref: M. Morán, A. M. Condó; S. Suárez; F. Soldera; N. Haberkorn, Materials Le
 
 **Integrantes de la División Física de Metales**
 
-{% include people-in-research-line.liquid %}
+
 
 **Investigadores de otras Divisiones y/o Instituciones:**
 

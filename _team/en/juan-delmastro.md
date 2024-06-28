@@ -5,21 +5,20 @@ picture: /assets/img/team/juan-delmastro.jpg
 layout: profile
 lang: en
 role: inv
-permalink: 
 position: ""
 teaching: ""
 location:
   office: ""
   building: "Anexo Propiedades Mecánicas, Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: ""
-email: juan.delmastro@cab.cnea.gov.ar
 
 social:
+  email: juan.delmastro@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid:

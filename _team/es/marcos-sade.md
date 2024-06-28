@@ -5,21 +5,20 @@ picture: /assets/img/team/marcos-sade.jpg
 layout: profile
 lang: es
 role: inv
-permalink: 
 position: "Investigador Principal de la CNEA / Investigador Principal del CONICET"
 teaching: "Profesor Asociado del Instituto Balseiro"
 location:
   office: "511"
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
   zip-code: R8402AGP
 phone: "(+54) 0294 444 5265 interno: 5265"
-email: sade@cab.cnea.gov.ar
 
 social:
+  email: sade@cab.cnea.gov.ar
   x_username:
   linkedin_username:
   google_scholar_userid: mGVb9Y4AAAAJ&hl

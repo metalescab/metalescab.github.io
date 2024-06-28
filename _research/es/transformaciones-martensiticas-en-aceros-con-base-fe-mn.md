@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research-line
 page_id: aceros-base-fe-mn
 title: "Transformaciones martensíticas en aceros con base Fe-Mn"
 lang: es
@@ -24,4 +24,4 @@ Trabajan en el temaPublicaciones destacadasTécnicas y equipamiento asociado¡Tr
 ##### Calorimetría de barrido  
 Microscopia electrónica de transmisión
 
-{% include people-in-research-line.liquid %}
+
