@@ -98,7 +98,7 @@ teaching: "Jefe de Trabajos Prácticos del Instituto Balseiro"
 location:
   office: "505"
   building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
-  adress: "Av. Bustillo 9500"
+  address: "Av. Bustillo 9500"
   city: "San Carlos de Bariloche"
   state: "Río Negro"
   country: "Argentina"
