@@ -242,6 +242,7 @@ exclude:
   - readme_preview/
   - UPGRADING.md
   - vendor
+  - LEER.md
 keep_files:
   - CNAME
   - .nojekyll
