@@ -266,6 +266,7 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+
 # Sitemap settings
 defaults:
   - scope:
