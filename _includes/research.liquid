@@ -1,0 +1,22 @@
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="{% if line.redirect %}{{ line.redirect }}{% else %}{{ line.url | relative_url }}{% endif %}">
+    <div class="card hoverable">
+      {% if line.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=line.img
+          sizes = "250px"
+          alt="line thumbnail"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">{{ line.title }}</h2>
+        <p class="card-text">{{ line.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

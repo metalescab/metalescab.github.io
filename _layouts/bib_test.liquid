@@ -1,0 +1,16 @@
+---
+---
+
+{% for item in bibliography %}
+  {% for author in item.author %}
+    {% assign author_last_name = author | split: ' ' | last %}
+    {% for team_member in site.team %}
+      {% if team_member.name | split: ' ' | last == author_last_name %}
+        <strong>{{ author }}</strong>  <!-- highlight the team member's name -->
+      {% else %}
+        {{ author }}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  <!-- rest of the bibliography item template -->
+{% endfor %}

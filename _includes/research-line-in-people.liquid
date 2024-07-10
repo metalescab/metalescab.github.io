@@ -1,0 +1,17 @@
+
+{% assign research_lines = site.research %}
+
+
+<ul>
+  {% for research_line in research_lines %}
+    {% for person in research_line.people %}
+      {% if person == page.page_id %}
+        <li>{{ research_line.title }}</li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+
+
+

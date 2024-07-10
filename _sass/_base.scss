@@ -195,6 +195,11 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  .social-profile {
+    text-align: center;
+    font-size: 2em;
+  }
 }
 
 .profile.float-right {
@@ -644,6 +649,50 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+}
+
+// Team
+
+.team {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  $image-width: 170px;
+
+  .card {
+    img {
+      display: block;
+      margin: auto;
+      padding: 10px;
+      width: $image-width;
+      height: auto;
+      max-width: 85%; /* optional, to prevent image from overflowing */
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
 }
 
 // Publications
@@ -1324,4 +1373,43 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
+}
+
+// --------------------------------------------------------------
+// Aqui pongo varios agregados de etilo
+
+.social-icon {
+  margin-right: 6px; /* agrega un espaciado en los iconos de redes sociales de cada "member" */
+}
+
+.social-icons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons-list li {
+  margin-bottom: 10px;
+}
+
+.social-icon i {
+  margin-right: 6px; /* Adjust spacing between icon and text */
+}
+
+
+
+// Esto que sigue es una prueba
+
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
