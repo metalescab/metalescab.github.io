@@ -4,7 +4,7 @@ page_id: tenacidad-fractura
 title: "Evaluación de la tenacidad a la fractura e integridad estructural de materiales y componentes de ingeniería"
 lang: es
 categories: 
-  - ""
+  -
   - "tenfraclineas"
 people:
   - marcos-bergant

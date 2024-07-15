@@ -4,7 +4,7 @@ page_id: caracteriacion-imagenes-neutrones
 title: "Characterization of Materials Using Neutron Imaging"
 lang: en
 categories:
-  - ""
+  -
 people:
   - sergio-soria
   - alejandro-yawny

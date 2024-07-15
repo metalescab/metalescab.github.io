@@ -31,14 +31,17 @@ social:
 
 education:
   - "Técnico Electromecánico"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
+
+
+Aquí describir la biografía
 

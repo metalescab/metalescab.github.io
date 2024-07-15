@@ -5,7 +5,7 @@ title: "Deformación plástica severa"
 lang: es
 categories: 
   - "defsevlineas"
-  - ""
+  -
 people:
   - fran-bubani
 tags: 

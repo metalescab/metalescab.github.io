@@ -4,13 +4,13 @@ page_id: estabilidad-fase
 title: "Estabilidad de fases en aleaciones de Cu con memoria de forma"
 lang: es
 categories: 
-  - ""
+  -
 people:
   - fran-bubani
   - jorge-pelegrina
   - marcos-sade
 tags: 
-  - ""
+  -
 ---
 
 Las aplicaciones tecnológicas de materiales con memoria de forma dependen en gran medida de la estabilidad relativa de las fases que intervienen en la transformación martensítica, que es la responsable de los efectos memoria y pseudoelasticidad. Básicamente, el efecto memoria de forma es la capacidad del material para lograr dos fisonomías marcadamente diferenciables con solo cambiar la temperatura. Este efecto se puede hacer reversible con un entrenamiento adecuado. Por otro lado, la pseudoelasticidad es la facultad de alargarse o acortarse en hasta un 10% de su longitud inicial bajo la influencia de una fuerza externa.

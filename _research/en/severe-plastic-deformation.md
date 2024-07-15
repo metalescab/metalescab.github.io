@@ -5,7 +5,7 @@ title: "Severe Plastic Deformation"
 lang: en
 categories: 
   - "defsevlineas"
-  - ""
+  -
 people:
   - fran-bubani
 tags: 

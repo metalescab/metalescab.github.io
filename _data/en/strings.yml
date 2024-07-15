@@ -148,6 +148,8 @@ roles:
   inv: Researcher
   doc: PhD
   tec: Technician
+publications: publications
+full_publications: full list
 selected_publications: selected publications
 related_publications: related publications
 research_lines: research lines

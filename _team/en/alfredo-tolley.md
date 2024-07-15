@@ -31,30 +31,16 @@ social:
 
 education:
   - "Dr. en Física"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-# Alfredo Juan Tolley
-
-##### Dr. en Física  
-
-
-* * *
-
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-* * *
-
-### Publications
-
-\[bibtex file=library.bib sort=year order=desc author=Tolley highlight=Tolley\]
+Aquí describir la biografía

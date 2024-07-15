@@ -41,12 +41,7 @@ tags:
 ---
 
 
+Aquí describir la biografía
 
-### Líneas de Investigación
-
-{% include research-line-in-people.liquid %}
-
-
-### Publicaciones
 
 

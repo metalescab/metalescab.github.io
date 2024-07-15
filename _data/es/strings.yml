@@ -148,6 +148,8 @@ roles:
   inv: Investigador
   doc: Doctorado
   tec: Técnico
+publications: publicaciones
+full_publications: lista completa
 selected_publications: publicaciones seleccionadas
 related_publications: publicaciones relacionadas
 research_lines: líneas de investigación

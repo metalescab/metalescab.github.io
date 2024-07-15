@@ -5,7 +5,7 @@ title: "Material Fatigue"
 lang: en
 thumbnail: 
 categories: 
-  - ""
+  -
 people:
   - marcos-bergant
   - graciela-bertolino
@@ -13,7 +13,7 @@ people:
   - ignacio-bustos
   - alejandro-yawny
 tags: 
-  - ""
+  -
 ---
 
 Repetitive changes in pressure, temperature, torques, and forces within a mechanical system can induce variable stresses and strains over time, which after a certain number of applications may result in the initiation and propagation of cracks, or even lead to component fracture. This type of process involving permanent, localized, and progressive structural change is known as fatigue.

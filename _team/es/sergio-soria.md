@@ -35,32 +35,16 @@ education:
   - "Ing. Electromecánico"
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-**Biografía**
-* * *
+Aquí describir la biografía
 
-(2011) - Ingeniero Electromecánico - UTN, Facultad Regional Resistencia
-
-(2011-2012)- Maestría en Ciencias Físicas – Instituto Balseiro, UNCuyo. Tema de estudio: Defectos inducidos por la irradiación con iones de helio en aleaciones de aluminio.
-
-(2013-2018) Doctorado en Ciencias de la Ingeniería – Instituto Balseiro, UNCuyo. Tema de estudio: Caracterización mecánica y microestructural de daño por fretting en materiales para tubos de generadores de vapor.
-
-(2018-2020) Postdoctorado – Neutron imaging group - Forschungs-Neutronenquelle Heinz Maier-Leibnitz (FRM II). Tema de estudio: Study of the hydrogen redistribution in Zirconium alloys under concentration, temperature and stress gradients using neutron imaging.
-
-
-### Líneas de Investigación
-
-{% include research-line-in-people.liquid %}* * *
-
-### Publicaciones
-* * *
 
 

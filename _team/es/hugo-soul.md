@@ -35,38 +35,16 @@ education:
   - "Ingeniero Mecánico"
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-* * *
+Aquí describir la biografía
 
-**Biografía**
-
-Ingeniero Mecánico, Junio 2005, Instituto Balseiro-UNCuyo  
-Doctorado en Ciencias de la Ingeniería, Marzo 2011, Instituto Balseiro-UNCuyo  
-División Física de Metales:  
-Agosto 2004-Junio 2005 Proyecto Integrador (Instituto Balseiro)  
-Abril 2006 -Marzo 2011 Doctorado en Ciencias de la Ingeniería (BECA CONICET)  
-Abril 2011 - Julio 2013: Investigador Postdoctoral CONICET  
-Agosto 2013 - Actualidad: Investigador CONICET  
-Año 2017: Estadía Postdoctoral en laboratorio de aleaciones y sistemas inteligentes - Ecole de Technologie Superieure, Montreal Canadá
-
-* * *
-
-### Líneas de Investigación
-
-{% include research-line-in-people.liquid %}
-Aplicaciones tecnológicas de AMF: Disipación de energía y aislamiento sísmico, compensación de tensiones térmicas, fusibles mecánicos activados por temperatura, actuadores lineales.  
-Manufactura Aditiva: Estructuras reticulares periódicas, propiedades mecánicas, fatiga.
-
-* * *
-
-### Publicaciones
 
 

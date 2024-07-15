@@ -12,29 +12,36 @@ phone: "(+54) 0294 444 5147 interno: 5147"
 
 
 {% if member.location.office %}
-    <p>Office: {{ member.location.office }}</p>
+    <p>
+        <i class="social-icon fa-solid fa-desktop"></i> {{ member.location.office }}
+    </p>
 {% endif %}
 
 {% if member.location.building %}
-    <p>Building: {{ member.location.building }}</p>
+    <p>
+        <i class="social-icon fa-solid fa-building"></i> {{ member.location.building }}
+    </p>
 {% endif %}
 
+<p>
 {% if member.location.address %}
-    <p>Address: {{ member.location.address }}</p>
+    </a><i class="social-icon fa-solid fa-location-dot"></i> {{ member.location.address }}, 
 {% endif %}
 
 {% if member.location.city %}
-    <p>City: {{ member.location.city }}</p>
+    {{ member.location.city }}, 
 {% endif %}
 
 {% if member.location.state %}
-    <p>State: {{ member.location.state }}</p>
+    {{ member.location.state }}, 
 {% endif %}
 
 {% if member.location.zip-code %}
-    <p>ZIP code: {{ member.location.zip-code }}</p>
+    ZIP code: {{ member.location.zip-code }}.
 {% endif %}
-
+</p>
 {% if member.phone %}
-    <p>Phone: {{ member.phone }}</p>
+    <p>
+        <i class="social-icon fa-solid fa-phone"></i> {{ member.phone }}
+    </p>
 {% endif %}

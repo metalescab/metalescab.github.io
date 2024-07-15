@@ -31,25 +31,18 @@ social:
 
 education:
   - "Dr. en Metalurgia Física"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
+Aquí describir la biografía
 
-* * *
-
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-* * *
-
-### Publications
 

@@ -3,13 +3,13 @@ layout: research-line
 page_is: microsistemas
 title: "Micro-sistemas basados en aleaciones con memoria de forma"
 categories: 
-  - ""
+  -
   - "transformacion-martensitica"
 people:
   - adriana-condo
   - francisco-lovey
 tags: 
-  - ""
+  -
 ---
 
 ## Láminas delgadas

@@ -31,25 +31,16 @@ social:
 
 education:
   - "Dra. en Ciencias de la Ingeniería"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-* * *
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-
-
-* * * 
-### Publications
-
-\[bibtex file=library.bib sort=year order=desc author=Bubani highlight=Bubani\]
+Aquí describir la biografía

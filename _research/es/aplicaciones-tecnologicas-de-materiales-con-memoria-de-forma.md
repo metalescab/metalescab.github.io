@@ -4,7 +4,7 @@ page_id: aplicaciones-tecnologicas-mmf
 title: "Aplicaciones Tecnológicas de Materiales con Memoria de Forma"
 lang: es
 categories: 
-  - ""
+  -
 people:
   - hugo-soul
   

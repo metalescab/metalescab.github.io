@@ -12,10 +12,6 @@ nav_order: 4
 ---
 
 
-
-
-
-
 <ul class="post-list">
   {% assign research_lines = site.research %}
     
@@ -74,13 +70,13 @@ nav_order: 4
 
    </div>
 
-   <div class="col-sm-3">
+  <div class="col-sm-3">
       <img class="card-img" src="{{line.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
     </div>
   </div>
-{% endif %}
+  {% endif %}
     </li>
 
     {% endfor %}
 
-  </ul>
+</ul>

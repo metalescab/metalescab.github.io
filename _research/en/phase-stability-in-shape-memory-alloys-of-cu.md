@@ -4,13 +4,13 @@ page_id: estabilidad-fase
 title: "Phase Stability in Shape Memory Alloys of Cu"
 lang: en
 categories: 
-  - ""
+  -
 people:
   - fran-bubani
   - jorge-pelegrina
   - marcos-sade
 tags: 
-  - ""
+  -
 ---
 
 The technological applications of shape memory materials depend largely on the relative stability of the phases involved in the martensitic transformation, which is responsible for the memory and pseudoelasticity effects. Basically, the shape memory effect is the material's ability to achieve two markedly different configurations by simply changing the temperature. This effect can be made reversible with proper training. On the other hand, pseudoelasticity is the ability to elongate or shorten by up to 10% of its initial length under the influence of an external force.

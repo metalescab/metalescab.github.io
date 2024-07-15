@@ -30,47 +30,17 @@ social:
   website:
 
 education:
-  - ""
-  - ""
+  -
+  -
 
 categories: 
   - "Dr. en Física"
-  - ""
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-
-* * *
-
-**Biografía**
-
-Investigador Principal CNEA-CONICET
-
-Profesor Asociado- Instituto Balseiro (CNEA/UNCU)
-
-Postdoctorado en la Universidad del Ruhr- Alemania, beca A.von Humboldt (1986-1988)
-
-Doctor en Física (I.Balseiro-1985)
-
-Licenciado en Física (I.Balseiro-1980)
-
-Primeros 2 años de carrera de grado 1975-1977: UBA (F.de Ingeniería y F.Cs.Exactas)
-
-Primaria y secundaria: Montevideo-Uruguay
-
-Tareas de gestión realizadas: Jefe División Física de Metales (1995-2003), Coordinador General Centro Atómico Bariloche (febrero 2003-marzo 2006 ), Jefe de Departamento Ciencia de Materiales (Ag-2015 a Feb-2019)
-
-* * *
-
-### Líneas de Investigación
-
-{% include research-line-in-people.liquid %}
-* * *
-
-### Publicaciones
-
-\[bibtex file=library.bib sort=year order=desc author=Sade highlight=Sade\]
+Aquí describir la biografía

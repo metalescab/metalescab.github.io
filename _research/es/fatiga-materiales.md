@@ -4,7 +4,7 @@ page_id: fatiga
 title: "Fatiga de materiales"
 lang: es
 categories: 
-  - ""
+  -
 people:
   - marcos-bergant
   - graciela-bertolino
@@ -12,7 +12,7 @@ people:
   - ignacio-bustos
   - alejandro-yawny
 tags: 
-  - ""
+  -
 ---
 
 Los cambios repetitivos en las condiciones de presión, temperatura, torques y fuerzas de un sistema mecánico, pueden inducir tensiones y deformaciones variables en el tiempo, las que luego de un cierto número de aplicaciones pueden resultar en la iniciación y propagación de fisuras, e incluso provocar la fractura de un componente. Este tipo de procesos de cambio estructural permanente, localizado y progresivo, se denomina fatiga.

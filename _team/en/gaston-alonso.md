@@ -34,21 +34,14 @@ education:
   - "Mg. en Ingeniería Mecánica"
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-* * *
-
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-* * *
-
-### Publications
+Aquí describir la biografía
 

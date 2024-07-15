@@ -4,7 +4,7 @@ page_id: aplicaciones-tecnologicas-mmf
 title: "Technological Applications of Shape Memory Materials"
 lang: en
 categories: 
-  - ""
+  -
 people:
   - hugo-soul
   

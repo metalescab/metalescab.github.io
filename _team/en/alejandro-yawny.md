@@ -32,32 +32,19 @@ social:
 
 education:
   - "Dr. en Ingeniería Nuclear"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
+Aquí describir la biografía
 
-##### MiniBio  
-
-Aquí el texto
-
-
-
-* * *
-
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-* * *
-
-### Publications
 
 

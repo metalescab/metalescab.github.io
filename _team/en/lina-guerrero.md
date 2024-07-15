@@ -34,41 +34,13 @@ education:
   - "Mg. en Ciencias Físicas"
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
-
-* * *
-
-**Biografía**
-
-**2016 - actualidad) - Becaria doctoral CONICET  
-**en la División Física de Metales del CAB.
-
-**(2014 - 2015) - Becaria de maestría CNEA  
-**en la División Física de Metales del CAB.
-
-**(2013) - Física  
-**Grupo de Óptica y Tratamiento de Señales, Universidad Industrial de Santander (UIS).
-
-* * *
-
-### Research Lines
-
-{% include research-line-in-people.liquid %}
-- Transformaciones Martensíticas.
-- Aleaciones con memoria de forma.
-- Transiciones estructurales y magneticas.
-- Fabricación y caracterización de aleaciones base Fe.
-
-* * *
-
-### Publications
-
-\[bibtex file=library.bib sort=year order=desc author=Guerrero highlight=Guerrero\]
+Aquí describir la biografía

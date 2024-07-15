@@ -31,23 +31,17 @@ social:
 
 education:
   - "Ingeniero Mecánico y Magíster en Ingeniería"
-  - ""
+  -
 
 categories: 
-  - ""
-  - ""
+  -
+  -
 tags: 
-  - ""
-  - ""
+  -
+  -
   
 ---
 
 
+Aquí describir la biografía
 
-* * *
-# Linea de Investigación
-* * *
-
-### Publicaciones
-
-\[bibtex file=library.bib sort=year order=desc author=Bustos highlight=Bustos\]
