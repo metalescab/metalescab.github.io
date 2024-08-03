@@ -3,13 +3,16 @@ page_id: team
 layout: page
 title: grupo
 lang: es
-permalink: /grupo/
-description: Integrantes del grupo.
+permalink: /team/
+# description: Integrantes del grupo.
 nav: true
 nav_order: 3
-display_roles: [inv, doc, tec]
-horizontal: false
+display_roles: [inv, postdoc, doc, master, grado, tec]
+toc:
+  sidebar: right
 ---
+
+{% include team_size.liquid %}
 
 <!-- pages/team.md -->
 <div class="projects">
@@ -20,42 +23,22 @@ horizontal: false
         <h2 class="role">{{ site.data[site.active_lang].strings.roles[role] }}</h2>
       </a>
       {% assign categorized_team = site.team | where: "role", role %}
-      {% assign sorted_team = categorized_team | sort: "name" %}
+      {% assign sorted_team = categorized_team | sort: "first_name" %}
       <!-- Generate cards for each member -->
-      {% if page.horizontal %}
-        <div class="container">
-          <div class="row row-cols-2">
-            {% for member in sorted_team %}
-              {% include team_horizontal.liquid %}
-            {% endfor %}
-          </div>
-        </div>
-      {% else %}
         <div class="grid">
           {% for member in sorted_team %}
             {% include team.liquid %}
           {% endfor %}
         </div>
-      {% endif %}
     {% endfor %}
   {% else %}
     <!-- Display team without roles -->
-    {% assign sorted_team = site.team | sort: "name" %}
+    {% assign sorted_team = site.team | sort: "first_name" %}
     <!-- Generate cards for each member -->
-    {% if page.horizontal %}
-      <div class="container">
-        <div class="row row-cols-2">
-          {% for member in sorted_team %}
-            {% include team_horizontal.liquid %}
-          {% endfor %}
-        </div>
-      </div>
-    {% else %}
       <div class="grid">
         {% for member in sorted_team %}
           {% include team.liquid %}
         {% endfor %}
       </div>
-    {% endif %}
   {% endif %}
 </div>

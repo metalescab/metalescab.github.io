@@ -1,11 +1,11 @@
 ---
 page_id: labs
 layout: default
-title: Laboratorios
+title: facilities
 lang: en
-permalink: /laboratories/
+permalink: /labs/
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 

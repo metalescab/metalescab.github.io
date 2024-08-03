@@ -3,7 +3,7 @@ page_id: about
 layout: page
 title: quienes somos
 lang: es
-permalink: /quienes-somos/
+permalink: /about/
 nav: true
 nav_order: 2
 ---
@@ -22,6 +22,3 @@ La experiencia que posee la División en el estudio de aleaciones que experiment
 Las investigaciones son principalmente experimentales, utilizándose una gran variedad de técnicas que incluyen microscopía electrónica de transmisión, microscopía óptica, dilatometría, calorimetría, resistividad y ensayos mecánicos. Además se tiene acceso a un microscopio electrónico de barrido, a diversas técnicas de rayos X y a fuentes de neutrones, electrones e iones para investigación de daños por radiación, pertenecientes al Centro Atómico Bariloche. También se abordan problemas de la Ciencia de Materiales por medio del modelado numérico y estudios de propiedades termodinámicas.
 
 En la División, además, se realizan actividades de desarrollo e investigación asociadas a programas prioritarios de la CNEA. Entre ellas se destacan la caracterización del daño por fretting en materiales de uso en la industria nuclear, el desarrollo de aceros resistentes a altas dosis de irradiación, la caracterización mecánica y microestructural de aleaciones de interés nuclear y la formulación del Plan de Vigilancia de Materiales de componentes críticos dentro de los programas de Gestión de Vida de los proyectos CAREM y RA 10. Asimismo, se llevan a cabo regularmente servicios de ensayos mecánicos y de caracterización microestructural para grupos de investigación de la propia institución, de otras instituciones y respondiendo a solicitudes de empresas tecnológicas.
-
-# Servicios
-En la División Física de Metales se efectúan regularmente servicios de ensayos mecánicos y de caracterización microestructural para grupos de investigación de la propia institución, de otras instituciones y para empresas. En este área se destacan especialmente el apoyo a proyectos prioritarios CNEA (CAREM, RA 10) a través de Acuerdos de Servicios específicos que incluyen asesoramiento como así también la implementación de actividades experimentales relacionadas con la caracterización mecánica (p. ej. ensayos de fretting, fractura, fatiga) y microestructural (p. ej. microscopía electrónica de transmisión). Además se desarrollan y realizan ensayos mecánicos para otras empresas, principalmente INVAP, todos los cuales se canalizan a través de contratos dentro de la Ley Nº 23.877 de Innovación Tecnológica.

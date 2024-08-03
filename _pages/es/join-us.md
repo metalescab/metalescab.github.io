@@ -3,9 +3,9 @@ page_id: join-us
 layout: default
 title: unite al grupo
 lang: es
-permalink: /unete/
+permalink: /join-us/
 nav: true
-nav_order: 6
+nav_order: 9
 ---
 
 **¿Te interesa lo que hacemos?** \

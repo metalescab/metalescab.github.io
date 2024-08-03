@@ -145,9 +145,12 @@ site_description: Un tema sencillo y limpio para académicos. Basado en el dise�
 
 # Añadidos para el sitio de METALESCAB
 roles:
-  inv: Investigador
-  doc: Doctorado
-  tec: Técnico
+  inv: Investigadoras/es
+  postdoc: Postdocs
+  doc: Estudiantes de Doctorado
+  master: Estudiantes de Maestría
+  grado: Estudiantes de Grado
+  tec: Técnicos
 publications: publicaciones
 full_publications: lista completa
 selected_publications: publicaciones seleccionadas

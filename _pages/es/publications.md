@@ -1,12 +1,12 @@
 ---
 page_id: publications
 layout: page
-permalink: /publicaciones/
+permalink: /publications/
 title: publicaciones
 lang: es
-description: publicaciones por categoria en orden cronologico inverso, generado por jekyll-scholar.
+description: publicaciones por categoria en orden cronológico inverso.
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->

@@ -1397,19 +1397,39 @@ ninja-keys::part(ninja-input-wrapper) {
 
 
 
-// Esto que sigue es una prueba
+// Carousel
 
-.embed-youtube {
+.top-content .carousel-caption {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
+  left: auto;
+  right: auto;
+  bottom: auto;
 }
 
-.embed-youtube iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.top-content .carousel-control-prev {
+  left: -110px;
+  border-bottom: 0;
+  font-size: 40px;
+  color: var (--global-theme-color);
 }
+
+.top-content .carousel-control-next {
+  right: -110px;
+  border-bottom: 0;
+  font-size: 40px;
+  color: var (--global-theme-color);
+}
+
+.top-content .carousel-indicators {
+  bottom: -30px;
+}
+
+.top-content .carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: var (--global-theme-color);
+  border-radius: 50%;
+}
+

@@ -3,16 +3,16 @@ layout: research-line
 page_id: radiation-damage-nano
 title: "Daño por Irradiación en Nanopartículas Metálicas"
 lang: es
-thumbnail: /assets/img/research/AuNPs_coal_TOC-300x162.png
+thumbnail: /assets/img/research/radiation-damage-nano-1.png
 description: El daño por irradiación en nanopartículas metálicas es un tema
 categories: 
-  -
+  - basic
 people:
   - eugenia-zelaya
   - julio-azcarate
 tags: 
-  - "euge"
-  - "julio"
+  - 
+  - 
 techniques: 
   - Microscopia Electrónica de Transmisión (TEM)  
   - Especrtoscopia de Fotoelectrónes generados por Rayos X (XPS)
@@ -23,7 +23,7 @@ techniques:
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid 
         loading="eager" 
-        path="/assets/img/research/AuNPs_coal_TOC-300x162.png" 
+        path="/assets/img/research/radiation-damage-nano-1.png" 
         class="img-fluid rounded z-depth-1" 
         zoomable=true %}
     </div>
@@ -40,7 +40,7 @@ Sin embargo, dado que las nanopartículas tienen un comportamiento diferente al 
     <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid 
         loading="eager" 
-        path="/assets/img/research/AuNPs_coal_1-1024x258.png" 
+        path="/assets/img/research/radiation-damage-nano-2.png" 
         class="img-fluid rounded z-depth-1" 
         zoomable=true %}
     </div>

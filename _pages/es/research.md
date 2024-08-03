@@ -3,7 +3,7 @@ page_id: research
 lang: es
 layout: page
 title: investigación
-permalink: /investigacion/
+permalink: /research/
 description: Nuestro grupo desarrolla diferentes líneas de investigación.
 nav: true
 nav_order: 4

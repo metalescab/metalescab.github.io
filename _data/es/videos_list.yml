@@ -1,0 +1,19 @@
+videos:
+  - title: "Maquina de Esayos de Creep"
+    description: "Design and manufacture of a creep testing machine"
+    url: https://www.youtube.com/embed/GZTrL0tV9rI
+  - title: "Video 2"
+    description: "This is the caption description text for video 2."
+    url: https://www.youtube.com/embed/GtS_8JKLQ7U
+  - title: "Video 3"
+    description: "This is the caption description text for video 3."
+    url: https://www.youtube.com/embed/qGh9KJq4qRU
+  - title: "Video 4"
+    description: "This is the caption description text for video 4."
+    url: https://www.youtube.com/embed/cRQ1DEXXca0
+  - title: "Video 5"
+    description: "This is the caption description text for video 5."
+    url: https://www.youtube.com/embed/4MqJQYvrsMk
+  - title: "Video 6"
+    description: "This is the caption description text for video 6."
+    url: https://www.youtube.com/embed/ODQfosNmRVg
