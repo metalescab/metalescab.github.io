@@ -12,71 +12,57 @@ nav_order: 4
 ---
 
 
-<ul class="post-list">
-  {% assign research_lines = site.research %}
-    
-  {% for line in research_lines %}
-
-  {% assign read_time = line.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-  
-  {% assign tags = line.tags | join: "" %}
-  {% assign categories = line.categories | join: "" %}
-  {% assign people = line.people | join: "" %}
-
-  <li>
-
-  {% if line.thumbnail %}
-
-  <div class="row">
-    <div class="col-sm-9">
-  {% endif %}
-          <h3>
-          {% if line.redirect == blank %}
-            <a class="post-title" href="{{ line.url | relative_url }}">{{ line.title }}</a>
-          {% elsif line.redirect contains '://' %}
-            <a class="post-title" href="{{ line.redirect }}" target="_blank">{{ line.title }}</a>
-          {% else %}
-            <a class="post-title" href="{{ line.redirect | relative_url }}">{{ line.title }}</a>
-          {% endif %}
-        </h3>
-        <p>{{ line.description }}</p>
-        <p class="post-tags">
-            {% if tags != "" %}
-            &nbsp; &middot; &nbsp;
-              {% for tag in line.tags %}
-              <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}">
-                <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-                {% endfor %}
-            {% endif %}
-
-            {% if categories != "" %}
-              &nbsp; &middot; &nbsp;
-              {% for category in line.categories %}
-              <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-                <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
-                {% endfor %}
-            {% endif %}
-          
-            {% if people != "" %}
-            &nbsp; &middot; &nbsp;
-              {% for people in line.people %}
-              <a href="{{ people | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-                <i class="fa-solid fa-user-large fa-sm"></i> {{ people }}</a> &nbsp;
-                {% endfor %}
-            {% endif %}
-      </p>
-
-  {% if line.thumbnail %}
-
-   </div>
-
-  <div class="col-sm-3">
-      <img class="card-img" src="{{line.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+<!-- pages/research.md -->
+<div class="projects">
+{% if site.enable_line_categories and page.display_categories %}
+  <!-- Display categorized research -->
+  {% for category in page.display_categories %}
+  <a id="{{ site.data[site.active_lang].strings.categories[category] }}" href=".#{{ site.data[site.active_lang].strings.categories[category] }}">
+    <h2 class="category">{{ site.data[site.active_lang].strings.categories[category] }}</h2>
+  </a>
+  {% assign categorized_research = site.research | where: "category", category %}
+  {% assign sorted_research = categorized_research | sort: "importance" %}
+  <!-- Generate cards for each line -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1">
+    {% for line in sorted_research %}
+      {% include research_horizontal.liquid %}
+    {% endfor %}
     </div>
   </div>
-  {% endif %}
-    </li>
-
+  {% else %}
+  <div class="grid">
+    {% for line in sorted_research %}
+      {% include research.liquid %}
     {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-</ul>
+{% else %}
+
+<!-- Display research without categories -->
+
+{% assign sorted_research = site.research | sort: "importance" %}
+
+  <!-- Generate cards for each line -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1">
+    {% for line in sorted_research %}
+      {% include research_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="grid">
+    {% for line in sorted_research %}
+      {% include research.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
