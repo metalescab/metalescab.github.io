@@ -10,9 +10,6 @@ people:
     - graciela-bertolino
     - alejandro-yawny
 categories: 
-
-tags: 
-  -
 ---
 
 

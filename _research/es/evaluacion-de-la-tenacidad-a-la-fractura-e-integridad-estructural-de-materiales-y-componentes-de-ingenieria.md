@@ -9,7 +9,7 @@ categories:
 people:
   - marcos-bergant
   - alejandro-yawny
-tags: 
+ 
   - "bergant"
   - "yawny"
 ---

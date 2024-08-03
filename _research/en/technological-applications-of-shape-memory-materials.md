@@ -8,7 +8,7 @@ categories:
 people:
   - hugo-soul
   
-tags: 
+ 
   - "hugo"
 ---
 

@@ -8,7 +8,7 @@ categories:
 people:
   - sergio-soria
   - alejandro-yawny
-tags:
+
   - "soria"
 ---
 

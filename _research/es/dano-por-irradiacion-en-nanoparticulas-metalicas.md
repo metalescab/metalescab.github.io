@@ -10,7 +10,7 @@ categories:
 people:
   - eugenia-zelaya
   - julio-azcarate
-tags: 
+ 
   - 
   - 
 techniques: 

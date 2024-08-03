@@ -9,7 +9,7 @@ people:
   - fran-bubani
   - jorge-pelegrina
   - marcos-sade
-tags: 
+ 
   -
 ---
 

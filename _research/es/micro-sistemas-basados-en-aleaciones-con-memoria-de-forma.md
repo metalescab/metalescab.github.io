@@ -8,7 +8,7 @@ categories:
 people:
   - adriana-condo
   - francisco-lovey
-tags: 
+ 
   -
 ---
 

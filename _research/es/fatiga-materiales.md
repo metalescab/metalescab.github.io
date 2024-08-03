@@ -11,7 +11,7 @@ people:
   - hugo-soul
   - ignacio-bustos
   - alejandro-yawny
-tags: 
+ 
   -
 ---
 

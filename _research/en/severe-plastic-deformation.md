@@ -8,7 +8,7 @@ categories:
   -
 people:
   - fran-bubani
-tags: 
+ 
   - "fran"
 ---
 
