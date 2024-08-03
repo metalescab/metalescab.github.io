@@ -7,12 +7,9 @@ categories:
   -
 people:
   - hugo-soul
-  
- 
-  - "hugo"
 ---
 
-El empleo de materiales con memoria de forma (MMF) en aplicaciones tecnológicas se basa en el aprovechamiento de alguno sus _[comportamientos particulares](http://trayectorias MMF)_ (o una combinación de ellos) asociados a la existencia de una transformación martensítica reversible. Los MMFs pueden desarrollar fuerzas o deformaciones recuperables o disipar energía mecánica logrando elevados índices de eficiencia en relación a su volumen o peso cuando se comparan con otros dispositivos (servomotores, electromagnéticos, etc). Los MMFs con propiedades biocompatibles, como por ejemplo la familia de aleaciones base NiTi, resultan de mucho interés en la industria médica.
+El empleo de materiales con memoria de forma (MMF) en aplicaciones tecnológicas se basa en el aprovechamiento de alguno sus _comportamientos particulares_ (o una combinación de ellos) asociados a la existencia de una transformación martensítica reversible. Los MMFs pueden desarrollar fuerzas o deformaciones recuperables o disipar energía mecánica logrando elevados índices de eficiencia en relación a su volumen o peso cuando se comparan con otros dispositivos (servomotores, electromagnéticos, etc). Los MMFs con propiedades biocompatibles, como por ejemplo la familia de aleaciones base NiTi, resultan de mucho interés en la industria médica.
 
 ![](/assets/img/research/MMF0-1024x434.png)
 
