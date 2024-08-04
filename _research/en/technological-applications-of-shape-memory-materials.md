@@ -12,7 +12,7 @@ people:
   - "hugo"
 ---
 
-The use of shape memory materials (SMMs) in technological applications is based on leveraging some of their _[particular behaviors](http://MMF trajectories)_ (or a combination of them) associated with the existence of a reversible martensitic transformation. SMMs can develop recoverable forces or deformations or dissipate mechanical energy, achieving high efficiency indices in relation to their volume or weight when compared to other devices (servomotors, electromagnetic, etc.). SMMs with biocompatible properties, such as the NiTi-based alloy family, are of great interest in the medical industry.
+The use of shape memory materials (SMMs) in technological applications is based on leveraging some of their _particular behaviors_ (or a combination of them) associated with the existence of a reversible martensitic transformation. SMMs can develop recoverable forces or deformations or dissipate mechanical energy, achieving high efficiency indices in relation to their volume or weight when compared to other devices (servomotors, electromagnetic, etc.). SMMs with biocompatible properties, such as the NiTi-based alloy family, are of great interest in the medical industry.
 
 ![](/assets/img/research/MMF0-1024x434.png)
 
