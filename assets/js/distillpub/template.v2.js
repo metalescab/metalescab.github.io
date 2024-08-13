@@ -4542,7 +4542,7 @@ d-footnote-list a.footnote-backlink {
     }
 
     showAtNode(node) {
-      // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+      // https://developer.mozilla.org/en/docs/Web/API/HTMLElement/offsetTop
       const bbox = node.getBoundingClientRect();
       this.show([node.offsetLeft + bbox.width, node.offsetTop + bbox.height]);
     }
