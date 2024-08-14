@@ -1,0 +1,40 @@
+{% assign members = site.team %}
+{% assign people_working = line.people %}
+
+<div class="card-item col">
+  <a href="{% if line.redirect %}{{ line.redirect }}{% else %}{{ line.url | relative_url }}{% endif %}">
+    <div class="card hoverable">
+      <div class="row g-0">
+        {% if line.thumbnail %}
+          <div class="card-img col-md-4">
+            {% include figure.liquid loading="eager" path=line.thumbnail class="rounded" sizes="(min-width: 768px) 156px, 50vw" alt="line thumbnail" %}
+          </div>
+        {% endif %}
+        <div class="{% if line.thumbnail %}col-md-8{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title text-lowercase">{{ line.title }}</h3>
+            <p class="card-text">{{ line.description }}</p>
+            <p class="card-text">
+              {% assign names = "" %}
+              {% for person in people_working %}
+                {% for member in members %}
+                  {% if person == member.page_id %}
+                    {% assign names = names | append: member.first_name | append: " " | append: member.last_name | append: ", " %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+              {% assign names = names | split: ", " %}
+              {% for name in names %}
+                <i class="fa-solid fa-user fa-sm"></i>
+                {{ name }}
+                {% unless forloop.last %}
+                  -
+                {% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+{% assign techniques = page.techniques %}
+
+{% if page.techniques %}
+    <div>
+        <h3>{{ site.data[site.active_lang].strings.techniques }}:</h3>
+        {% for technique in techniques %}
+            <li>{{ technique }}</li>
+        {% endfor %}
+    </div>
+{% endif %}
+{% comment %} Mejorar esta parte de arriba {% endcomment %}
+
+<div>
+    {% if page.related_publications %}
+        <h3>
+            {{ site.data[site.active_lang].strings.related_publications }}
+        </h3>
+    {% endif %}
+</div>
+
+<div>
+    <h3>
+        {{ site.data[site.active_lang].strings.working_on }}
+    </h3>
+    {% include people-in-research-line.liquid %}
+</div>

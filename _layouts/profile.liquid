@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% assign member = page %}
+
+<!--- picture | name --->
+<div class="row justify-content-sm-center">
+    <div class="col-sm-3
+                ">
+        {% include figure.liquid
+        loading="eager"
+        path= page.picture
+        class="img-fluid z-depth-1 rounded-circle"
+        zoomable=false %}
+        <!--- Contact & Social --->
+        <div class="row center">
+            {% if page.social %}
+            {% include member_social_link.liquid %}
+            {% endif %}
+        </div>
+        <br>
+        <div class="row center">
+            <p>
+                {% if page.location %}
+                {% include member_location.liquid %}
+                {% endif %}
+            </p>
+        </div>
+    </div>
+    <div class="col-sm-8 ">
+        <h1>{{ page.first_name }} <strong>{{ page.last_name }}</strong></h1>
+        <h5>{{ page.position }}</h5>
+        <h6>{{ page.education[0] }}</h6>
+        <br>
+        <h3>miniBio</h3>
+        {{ content }}
+    </div>
+</div>
+
+
+<!--- List of Research Lines --->
+<hr>
+<div>
+    <h3>{{ site.data[site.active_lang].strings.research_lines }}</h3>
+    {% include research-line-in-people.liquid %}
+</div>
+
+<!--- Publication list --->
+
+<div class="publications">
+    <h3>{{ site.data[site.active_lang].strings.publications }}</h3>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#selected">{{
+                site.data[site.active_lang].strings.selected_publications }}</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#full">{{ site.data[site.active_lang].strings.full_publications
+                }}</a>
+        </li>
+
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        {% if page.bibliography.selected %}
+        <div class="tab-pane active container" id="selected">
+            {% bibliography --file {{ page.bibliography.selected }} %}
+        </div>
+        {% endif %}
+        {% if page.bibliography.full %}
+        <div class="tab-pane container" id="full">
+            {% bibliography --file {{ page.bibliography.full }} %}
+        </div>
+        {% endif %}
+    </div>
+
+</div>

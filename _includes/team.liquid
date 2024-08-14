@@ -1,0 +1,23 @@
+<div class="team grid-sizer"></div>
+<div class="team grid-item">
+  <a href="{% if member.redirect %}{{ member.redirect }}{% else %}{{ member.url | relative_url }}{% endif %}">
+    <div class="team card hoverable {% if member.active %}sticky-top{% endif %}">
+      {% if member.picture %}
+        {%
+          include figure.liquid loading="eager" path=member.picture sizes = "auto" alt="member thumbnail"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title text-titlecase">{{ member.first_name }}<br>
+          <strong>{{ member.last_name }}</strong>
+        </h3>
+        <p class="card-text">{{ member.position }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if member.social %}
+            {% include member_social.liquid %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

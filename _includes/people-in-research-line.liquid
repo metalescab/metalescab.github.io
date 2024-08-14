@@ -1,0 +1,16 @@
+{% assign members = site.team %}
+{% assign people_working = page.people %}
+
+
+<div class="projects">
+    <div class="grid">
+        {% for person in people_working %}
+            {% for member in members %}
+              {% if person == member.page_id %}
+                {% comment %} <li>{{ member.name }}</li> {% endcomment %}
+                {% include team.liquid %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+    </div>
+</div>
