@@ -1,0 +1,47 @@
+{% comment %} 
+location:
+  office: "506"
+  building: "Edificio de Ciencia de Materiales, Centro Atómico Bariloche"
+  address: "Av. Bustillo 9500"
+  city: "San Carlos de Bariloche"
+  state: "Río Negro"
+  country: "Argentina"
+  zip-code: R8402AGP
+phone: "(+54) 0294 444 5147 interno: 5147" 
+{% endcomment %}
+
+
+{% if member.location.office %}
+    <p>
+        <i class="social-icon fa-solid fa-desktop"></i> {{ member.location.office }}
+    </p>
+{% endif %}
+
+{% if member.location.building %}
+    <p>
+        <i class="social-icon fa-solid fa-building"></i> {{ member.location.building }}
+    </p>
+{% endif %}
+
+<p>
+{% if member.location.address %}
+    </a><i class="social-icon fa-solid fa-location-dot"></i> {{ member.location.address }}, 
+{% endif %}
+
+{% if member.location.city %}
+    {{ member.location.city }}, 
+{% endif %}
+
+{% if member.location.state %}
+    {{ member.location.state }}, 
+{% endif %}
+
+{% if member.location.zip-code %}
+    ZIP code: {{ member.location.zip-code }}.
+{% endif %}
+</p>
+{% if member.phone %}
+    <p>
+        <i class="social-icon fa-solid fa-phone"></i> {{ member.phone }}
+    </p>
+{% endif %}
