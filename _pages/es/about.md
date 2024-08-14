@@ -1,27 +1,24 @@
 ---
 page_id: about
-layout: about
-title: sobre
-permalink: /
-subtitle: <a href='#'>Afiliações</a>. Endereço. Contatos. Lema. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 seu telefone do trabalho</p>
-    <p>123 seu endereço</p>
-    <p>Sua cidade, estado 12345</p>
-
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+layout: page
+title: quienes somos
+lang: es
+permalink: /about/
+nav: true
+nav_order: 2
 ---
 
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+La División Física de Metales focaliza su investigación en el estudio de materiales metálicos, tanto masivos como nano-estructurados. Gran parte de los materiales que se estudian son elaborados en la propia División. Se llevan a cabo un amplio espectro de investigaciones, incluyendo básicas, aplicadas y el desarrollo de nuevos materiales para aplicaciones específicas. Es un grupo fuertemente experimental con importante infraestructura para el estudio de propiedades termodinámicas, propiedades mecánicas y la caracterización miciroestructural. Se realizan también investigaciones mediante métodos numéricos, simulaciones y modelado termodinámico. Una parte importante de las actividades actuales está dedicada también al asesoramiento y realización de ensayos de caracterización mecánica y microestructural para proyectos prioritarios CNEA o como servicios para otras empresas. Además, se participa activamente en la formación de recursos humanos mediante la dirección de trabajos finales de grado y de tesis de posgrado en sus laboratorios, tanto en las carreras de Física como en las de Ingeniería del Instituto Balseiro. La División Física de Metales está conformada actualmente por un plantel de marcado carácter interdisciplinario, que incluye investigadores con formación de grado en las carreras de Física, Química, Ingeniería Nuclear, Ingeniería Mecánica e Ingeniería en Materiales.
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
 
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
+## HISTORIA
+La División Metales existe desde la fundación del Centro Atómico Bariloche en 1955. Una de las principales actividades se centró originalmente en la investigación de la plasticidad en metales y aleaciones. En 1969 se incorporó el estudio del comportamiento de deformación en aleaciones que experimentan una transformación martensítica, principalmente Cu-Zn y Cu-Zn-Al. Esto dio inicio a una línea de investigación en aleaciones con memoria de forma que ha sido seguida sin interrupción hasta el presente y que se ha extendido a diversidad de sistemas metálicos incluyendo aleaciones base Fe y de Ni-Ti (biocompatibles). Entre los problemas que han sido y siguen siendo estudiados se encuentran la estabilidad relativa de fases, incluyendo la influencia del magnetismo, fenómenos difusivos, influencia de precipitados, efecto de tratamientos termomecánicos y la presencia de desorden.
+
+Paulatinamente y a medida que se fortaleció la capacidad experimental de los laboratorios de la división, en particular en lo concerniente a microscopía electrónica de transmisión y al estudio de propiedades mecánicas, se incrementó el carácter interdisciplinario de la división y la diversidad de temas tratados, que siguen incluyendo aspectos básicos de la ciencia, caracterización microestructural y mecánica a demanda de proyectos prioritarios de CNEA, servicios a empresas tecnológicas y desarrollo de aplicaciones diversas.
+
+## Que hacemos ahora
+La experiencia que posee la División en el estudio de aleaciones que experimentan transformaciones martensíticas, inicialmente basada en aleaciones base Cu-Zn, se ha extendido a diversidad de sistemas, tanto base Cu (Cu-Al-Be, Cu-Al-Ni), como base Fe-Mn (Fe-Mn-Si,Fe-Mn-Co-,Fe-Mn-Cr) incluyendo las aleaciones llamadas actualmente aleaciones de alta entropía, y aleaciones base Ni-Ti. En este último sistema se llevan a cabo desarrollos  de diversas aplicaciones. Asimismo se llevan a cabo estudios del efecto de precipitación en diversos sistemas como ser aleaciones base Al.
+
+Las investigaciones son principalmente experimentales, utilizándose una gran variedad de técnicas que incluyen microscopía electrónica de transmisión, microscopía óptica, dilatometría, calorimetría, resistividad y ensayos mecánicos. Además se tiene acceso a un microscopio electrónico de barrido, a diversas técnicas de rayos X y a fuentes de neutrones, electrones e iones para investigación de daños por radiación, pertenecientes al Centro Atómico Bariloche. También se abordan problemas de la Ciencia de Materiales por medio del modelado numérico y estudios de propiedades termodinámicas.
+
+En la División, además, se realizan actividades de desarrollo e investigación asociadas a programas prioritarios de la CNEA. Entre ellas se destacan la caracterización del daño por fretting en materiales de uso en la industria nuclear, el desarrollo de aceros resistentes a altas dosis de irradiación, la caracterización mecánica y microestructural de aleaciones de interés nuclear y la formulación del Plan de Vigilancia de Materiales de componentes críticos dentro de los programas de Gestión de Vida de los proyectos CAREM y RA 10. Asimismo, se llevan a cabo regularmente servicios de ensayos mecánicos y de caracterización microestructural para grupos de investigación de la propia institución, de otras instituciones y respondiendo a solicitudes de empresas tecnológicas.

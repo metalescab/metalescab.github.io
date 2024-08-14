@@ -2,13 +2,19 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: publicações
-description: publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.
+title: publicaciones
+lang: es
+description: publicaciones por categoria en orden cronológico inverso.
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
 {% bibliography %}
