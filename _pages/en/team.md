@@ -23,7 +23,7 @@ toc:
         <h2 class="role">{{ site.data[site.active_lang].strings.roles[role] }}</h2>
       </a>
       {% assign categorized_team = site.team | where: "role", role %}
-      {% assign sorted_team = categorized_team | sort: "first_name" %}
+      {% assign sorted_team = categorized_team | sort: "role" %}
       <!-- Generate cards for each member -->
         <div class="grid">
           {% for member in sorted_team %}

@@ -27,7 +27,6 @@ table {
   td,
   th {
     font-size: 1rem;
-    padding: 1px 1rem 1px 0;
   }
 
   th {
@@ -72,10 +71,7 @@ blockquote {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-tip-block-text);
     }
 
@@ -93,10 +89,7 @@ blockquote {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-warning-block-text);
     }
 
@@ -114,10 +107,7 @@ blockquote {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
 
-    em,
-    li,
-    p,
-    strong {
+    p {
       color: var(--global-danger-block-text);
     }
 
@@ -204,6 +194,11 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
+  }
+
+  .social-profile {
+    text-align: center;
+    font-size: 2em;
   }
 }
 
@@ -654,6 +649,50 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+}
+
+// Team
+
+.team {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  $image-width: 170px;
+
+  .card {
+    img {
+      display: block;
+      margin: auto;
+      // padding: 10px;
+      width: auto;
+      height: auto;
+      max-width: 90%; /* optional, to prevent image from overflowing */
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
 }
 
 // Publications
@@ -1197,8 +1236,7 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
-.newsletter-form-input,
-.bibsearch-form-input {
+.newsletter-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 1px solid var(--global-newsletter-text-color);
@@ -1337,8 +1375,61 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-// highlight-search-term
-::highlight(search) {
-  background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+// --------------------------------------------------------------
+// Aqui pongo varios agregados de etilo
+
+.social-icon {
+  margin-right: 6px; /* agrega un espaciado en los iconos de redes sociales de cada "member" */
 }
+
+.social-icons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons-list li {
+  margin-bottom: 10px;
+}
+
+.social-icon i {
+  margin-right: 6px; /* Adjust spacing between icon and text */
+}
+
+
+
+// Carousel
+
+.top-content .carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+.top-content .carousel-control-prev {
+  left: -110px;
+  border-bottom: 0;
+  font-size: 40px;
+  color: var (--global-theme-color);
+}
+
+.top-content .carousel-control-next {
+  right: -110px;
+  border-bottom: 0;
+  font-size: 40px;
+  color: var (--global-theme-color);
+}
+
+.top-content .carousel-indicators {
+  bottom: -30px;
+}
+
+.top-content .carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: var (--global-theme-color);
+  border-radius: 50%;
+}
+

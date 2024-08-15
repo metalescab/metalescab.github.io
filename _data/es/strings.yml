@@ -1,144 +1,159 @@
-archive_category: um arquivo de postagens desta categoria
-archive_tag: um arquivo de postagens com este marcador
-archive_year: um arquivo de postagens deste ano
+archive_category: un archivo de publicaciones en esta categoría
+archive_tag: un archivo de publicaciones con esta etiqueta
+archive_year: un archivo de publicaciones de este año
 blog:
   navigation_title: blog
 categories:
-  fun: diversão
-  work: trabalho
+  fun: diversión
+  work: trabajo
 citation:
-  bibtex: "ou como uma citação em BibTeX:"
-  introduction: "Se você achou isso útil, por favor cite como:"
-contact_note: Você pode até adicionar uma pequena observação sobre qual dessas é a melhor maneira de entrar em contato com você.
+  bibtex: "o como una entrada BibTeX:"
+  introduction: "Si encontraste esto útil, por favor cita esto como:"
+contact_note: Incluso puedes agregar una pequeña nota sobre cuál es la mejor manera de contactarte.
 cv:
-  address: Endereço
+  address: Dirección
   area: Área
-  awarder: Premiado por
-  awards: Prêmios
-  basics: Informações gerais
+  awarder: Entregado por
+  awards: Premios
+  basics: Información general
   certificates: Certificados
-  city: Cidade
-  countryCode: Código do país
+  city: Ciudad
+  countryCode: Código de país
   courses: Cursos
-  date: Data
-  education: Educação
-  email: Email
-  endDate: Data de término
-  fluency: Fluência
-  highlights: Destaques
-  image: Imagem
-  institution: Instituição
-  interests: Interesses
-  issuer: Emissor
-  keywords: Palavras chave
-  label: Título
+  date: Fecha
+  education: Educación
+  email: Correo electrónico
+  endDate: Fecha de fin
+  fluency: Fluidez
+  highlights: Aspectos destacados
+  image: Imagen
+  institution: Institución
+  interests: Intereses
+  issuer: Emitido por
+  keywords: Palabras clave
+  label: Etiqueta
   language: Idioma
   languages: Idiomas
-  level: Nível
-  location: Localização
-  name: Nome
-  network: Rede
-  organization: Organização
-  phone: Telefone
-  position: Posição
+  level: Nivel
+  location: Ubicación
+  name: Nombre
+  network: Red
+  organization: Organización
+  phone: Teléfono
+  position: Posición
   postalCode: Código postal
-  profiles: Perfis
-  projects: Projetos
-  publications: Publicações
-  publisher: Editora
-  reference: Referência
-  references: Referências
-  region: Região
-  releaseDate: Data de lançamento
-  score: Pontuação
+  profiles: Perfiles
+  projects: Proyectos
+  publications: Publicaciones
+  publisher: Editor
+  reference: Referencia
+  references: Referencias
+  region: Región
+  releaseDate: Fecha de publicación
+  score: Puntuación
   skills: Habilidades
-  startDate: Data de início
-  studyType: Tipo de estudo
-  summary: Resumo
-  table_of_contents: Tópicos
+  startDate: Fecha de inicio
+  studyType: Tipo de estudio
+  summary: Resumen
+  table_of_contents: Índice
   title: Título
-  url: Url
-  username: Usuário
-  volunteer: Voluntário
-  work: Trabalho
-footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Desenvolvido em <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> com o tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hospedado por <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Fotos do <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: últimas postagens
+  url: URL
+  username: Nombre de usuario
+  volunteer: Voluntario
+  work: Trabajo
+footer_text: > # el símbolo ">" indica ignorar saltos de línea hasta "titles:"
+  Desarrollado por <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Fotos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: últimas publicaciones
 months:
   long:
-    january: Janeiro
-    february: Fevereiro
-    march: Março
+    january: Enero
+    february: Febrero
+    march: Marzo
     april: Abril
-    may: Maio
-    june: Junho
-    july: Julho
+    may: Mayo
+    june: Junio
+    july: Julio
     august: Agosto
-    september: Setembro
-    october: Outubro
-    november: Novembro
-    december: Dezembro
+    september: Septiembre
+    october: Octubre
+    november: Noviembre
+    december: Diciembre
   short:
-    january: Jan
-    february: Fev
+    january: Ene
+    february: Feb
     march: Mar
     april: Abr
-    may: Mai
+    may: May
     june: Jun
     july: Jul
     august: Ago
-    september: Set
-    october: Out
+    september: Sep
+    october: Oct
     november: Nov
-    december: Dez
-news: novidades
+    december: Dic
+news: noticias
 newsletter:
-  back: Voltar
-  error: "Oops! Algo deu errado, por favor tente novamente."
-  subscribe: inscrever-se
-  subscribed: "Você se inscreveu com sucesso na newsletter."
-  subscribe_to_receive: "Inscreva-se para ser notificado de futuros artigos:"
-  too_many_signups: "Muitas inscrições, por favor tente novamente em breve"
-  wait: "Por favor, aguarde..."
-no_news: Nenhuma novidade no momento...
+  back: Volver
+  error: "¡Oops! Algo salió mal, por favor inténtalo de nuevo."
+  subscribe: suscribirse
+  subscribed: "Te has suscrito correctamente al boletín."
+  subscribe_to_receive: "Suscríbete para recibir notificaciones de futuros artículos:"
+  too_many_signups: "Demasiadas suscripciones, por favor inténtalo de nuevo más tarde"
+  wait: "Por favor espera..."
+no_news: Aún no hay noticias...
 pagination:
-  newer: Recentes
-  older: Antigas
+  newer: Más reciente
+  older: Más antiguo
   page: página
 post:
-  created_in: Criado em
+  created_in: Creado en
   created_by: por
-  last_updated: última atualização em
-references: Referências
+  last_updated: última actualización en
+references: Referencias
 related_posts:
-  description: "Aqui estão alguns artigos relacionados que você pode gostar de ler:"
-  title: Gostou de Ler este Artigo?
+  description: "Aquí tienes algunos artículos más que podrían interesarte:"
+  title: Disfruta leyendo este artículo
 search:
   dark_theme:
-    description: Muda o tema do site para escuro
-    title: Muda o tema para escuro
-  dropdown: Outras opções
-  email: Enviar um email
+    description: Cambiar el tema del sitio a Oscuro
+    title: Cambiar tema a oscuro
+  dropdown: Desplegable
+  email: Enviar correo electrónico
   footer:
-    close: para fechar
+    close: para cerrar
     navigate: para navegar
-    parent: voltar um nível
-    select: para selecionar
+    parent: para ir al padre
+    select: para seleccionar
   languages: Idiomas
   light_theme:
-    description: Muda o tema do site para claro
-    title: Muda o tema para claro
-  navigation: Menu de navegação
-  news: Novidades
-  placeholder: Digite para iniciar a busca
-  posts: Postagens
-  projects: Projetos
-  socials: Redes sociais
+    description: Cambiar el tema del sitio a Claro
+    title: Cambiar tema a claro
+  navigation: Menú de navegación
+  news: Noticias
+  placeholder: Escribe para comenzar a buscar
+  posts: Publicaciones
+  projects: Proyectos
+  socials: Redes sociales
   system_theme:
-    description: Muda o tema do site para o padrão do sistema
-    title: Usa o tema padrão do sistema
+    description: Cambiar el tema del sitio al predeterminado del sistema
+    title: Usar tema predeterminado del sistema
   theme: Tema
-selected_publications: publicações selecionadas
-site_description: Um tema simples para acadêmicos. Baseado no design do [*folio](https://github.com/bogoli/-folio).
+selected_publications: publicaciones seleccionadas
+site_description: Un tema sencillo y limpio para académicos. Basado en el diseño de [*folio](https://github.com/bogoli/-folio).
+# Añadidos para el sitio de METALESCAB
+roles:
+  inv: Investigadoras/es
+  postdoc: Postdocs
+  doc: Estudiantes de Doctorado
+  master: Estudiantes de Maestría
+  grado: Estudiantes de Grado
+  tec: Técnicos
+publications: publicaciones
+full_publications: lista completa
+selected_publications: publicaciones seleccionadas
+related_publications: publicaciones relacionadas
+research_lines: líneas de investigación
+working_on: trabajando en este tema
+techniques: técnicas y equipamiento asociado
