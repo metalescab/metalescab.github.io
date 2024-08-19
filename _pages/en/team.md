@@ -12,7 +12,7 @@ toc:
   sidebar: right
 ---
 
-{% include team_size.liquid %}
+
 
 <!-- pages/team.md -->
 <div class="projects">

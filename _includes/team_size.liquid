@@ -1,68 +1,20 @@
 {% assign members = site.team %}
 {% assign members_size = members | size %}
+{% assign roles = members | group_by: "role" %}
 
-{% assign inv = members | where: "role", "inv" %}
-{% assign inv_size = inv | size %}
-
-{% assign postdoc = members | where: "role", "postdoc" %}
-{% assign postdoc_size = postdoc | size %}
-
-{% assign doc = members | where: "role", "doc" %}
-{% assign doc_size = doc | size %}
-
-{% assign master = members | where: "role", "master" %}
-{% assign master_size = master | size %}
-
-{% assign grado = members | where: "role", "grado" %}
-{% assign grado_size = grado | size %}
-
-{% assign tec = members | where: "role", "tec" %}
-{% assign tec_size = tec | size %}
-
-{% if site.active_lang == "es" %}
+{% if site.active_lang == "es" or site.active_lang == "en" %}
   <div>
-    Nuestro grupo interdisciplinario conformado por {{ members_size }} integrantes.    
+    {{ site.data[site.active_lang].strings.group_description }} {{ members_size }} integrantes.       
     De los cuales
-    {{ inv_size }} son investigadoras/es,
-    {% if postdoc_size > 0 %}
-      {{ postdoc_size }} postdoc,
-    {% endif %}
-    {% if doc_size > 0 %}
-      {{ doc_size }} estudiantes de doctorado,
-    {% endif %}
-    {% if master_size > 0 %}
-      {{ master_size }} estudiantes de maestria,
-    {% endif %}
-    {% if grado_size > 0 %}
-      {{ grado_size }} estudiantes de grado,
-    {% endif %}
-    {% if tec_size > 0 %}
-      {{ tec_size }} técnicos
-    {% endif %}
-    .
-  </div>
-{% endif %}
-
-{% if site.active_lang == "en" %}
-  <div>
-    Our interdisciplinary group consists of {{ members_size }} members.    
-    Of which
-    {{ inv_size }} are researchers,
-    {% if postdoc_size > 0 %}
-      {{ postdoc_size }} postdoctoral researchers,
-    {% endif %}
-    {% if doc_size > 0 %}
-      {{ doc_size }} PhD students,
-    {% endif %}
-    {% if master_size > 0 %}
-      {{ master_size }} master's students,
-    {% endif %}
-    {% if grado_size > 0 %}
-      {{ grado_size }} undergraduate students,
-    {% endif %}
-    {% if tec_size > 0 %}
-      {{ tec_size }} technical staff
-    {% endif %}
+    {% for role in roles %}
+      {% if role.name == "inv" %}
+        {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+      {% if role.name == "postdoc" and role.size > 0 %}, {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+      {% if role.name == "doc" and role.size > 0 %}, {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+      {% if role.name == "master" and role.size > 0 %}, {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+      {% if role.name == "grado" and role.size > 0 %}, {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+      {% if role.name == "tec" and role.size > 0 %}, {{ role.size }} {{ site.data[site.active_lang].strings.roles[role.name] }}{% endif %}
+    {% endfor %}
     .
   </div>
 {% endif %}

@@ -50,6 +50,6 @@ Julio se graduó de Licenciado en Química en 2009 en la [Facultad de Ciencias E
 
 En 2015, Julio se unió a la División Física de Metales durante su post-doctorado para estudiar el "Daño por irradiación en nanomateriales durante sucaracterización por microscopia electrónica de transmisión (TEM)", bajo la dirección de la Dra. Eugenia Zelaya. 
 
-En 2016, se convirtió en un miembro permanente del grupo como [Investigador del CONICET](https://www.conicet.gov.ar/new_scp/detalle.php?id=28714&datos_academicos=yes). Sus intereses científicos se centran en 
+En 2016, se convirtió en un miembro permanente del grupo como [Investigador del CONICET](https://www.conicet.gov.ar/new_scp/detalle.php?id=28714&datos_academicos=yes). Sus intereses científicos se centran en el estudio de nanopartículas metálicas con propiedades plasmónicas. También se centra en el estudio detallado de los mecanismos del daño por irradiación que sufren los nanomateriales cuando son caracterizados mediante TEM.
 
 
