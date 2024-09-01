@@ -1,0 +1,74 @@
+﻿\tikzset{
+  director/.style={
+    draw,
+    rectangle,
+    rounded corners,
+	fill=green!20,
+    minimum width=4cm,
+    minimum height=1cm,
+    text width=4cm,
+    align=center,
+  }
+}
+
+\tikzset{
+  mynode/.style={
+    draw,
+	anchor=north,
+    rectangle,
+    rounded corners,
+	fill=blue!15,
+    minimum width=4cm,
+    minimum height=1cm,
+    text width=4cm,
+    align=left,
+  }
+}
+
+\begin{tikzpicture}[node distance=2em]
+\sffamily \small
+  \node[director] (gunther) {
+    \textbf{Gunther Schöck}\\
+    -\\
+\emph{Asesor Científico}
+  };
+
+  \node[mynode] (bisogni) at (-7,-2) {
+    \textbf{Edgardo Bisogni}\\
+    (1958)\\
+    ---\\
+    \emph{Comportamiento anelástico de Al y aleaciones de Al deformadas plásticamente.}\\
+    (1965)
+  };
+
+  \node[mynode] (medrano) at (-2.3,-2) {
+    \textbf{Ricardo Enrique Medrano}\\
+    (1962)\\
+    ---\\
+    \emph{Estudio de endurecimiento por deformación en metales cúbicos de caras centradas.}\\
+    (1968)
+  };
+
+  \node[mynode] (pascual) at (2.3,-2) {
+    \textbf{Roberto Pascual}\\
+    (1965)\\
+    ---\\
+    \emph{Procesos térmicamente activados en la deformación plástica de metales.}\\
+    (1969)
+  };
+
+  \node[mynode] (mondino) at (7,-2) {
+    \textbf{Manuel Mondino}\\
+    (1959)\\
+    ---\\
+    \emph{Fricción interna debida a: (a) la interacción de dislocaciones de átomos de soluto en metales cúbicos de cuerpo centrado (sistema Ta-O); (b) preipiación (aleaciones Cu 3\% Co y Al 30\% Zn).}\\
+    (1971)
+  };
+
+\draw (gunther.south west) -- (bisogni.north);
+\draw (gunther.south) -- (medrano.north);
+\draw (gunther.south) -- (pascual.north);
+\draw (gunther.south east) -- (mondino.north);
+
+
+\end{tikzpicture}

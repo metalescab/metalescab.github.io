@@ -1433,3 +1433,9 @@ ninja-keys::part(ninja-input-wrapper) {
   border-radius: 50%;
 }
 
+// Two-column List
+.two-column-list li {
+  justify-content: left;
+  column-count: 2;
+  column-gap: 3em;
+}

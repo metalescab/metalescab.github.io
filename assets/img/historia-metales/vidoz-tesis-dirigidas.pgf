@@ -1,0 +1,72 @@
+﻿\tikzset{
+  director/.style={
+    draw,
+    rectangle,
+    rounded corners,
+	fill=green!20,
+    minimum width=4cm,
+    minimum height=1cm,
+    text width=4cm,
+    align=center,
+  }
+}
+
+\tikzset{
+  mynode/.style={
+    draw,
+	anchor=north,
+    rectangle,
+    rounded corners,
+	fill=blue!15,
+    minimum width=4cm,
+    minimum height=1cm,
+    text width=4cm,
+    align=left,
+  }
+}
+
+\begin{tikzpicture}[node distance=4em]
+\sffamily \small
+  \node[director] (vidoz) {
+    \textbf{Aldo Vidoz}\\
+    -\\
+\emph{Asesor Científico}
+  };
+
+  \node[mynode] (m-victoria) at (-5,-2) {
+    \textbf{Máximo Victoria}\\
+    (1961)\\
+    ---\\
+    \emph{Propiedades plásticas de soluciones sólidas con orden de largo alcance.}\\
+    (1966)\\
+    ---\\
+    Trabajó en Ni$_3$Fe y Cu$_3$Au, tanto fases desordenadas, en mono y policristales.
+  };
+
+  \node[mynode] (pampillo) at (0,-2) {
+    \textbf{Carlos Alberto Pampillo}\\
+    (1962)\\
+    ---\\
+    \emph{Procesos de deformación plástica en aleaciones de Ni/Fe: dependencia del orden de largo y corto alcance}\\
+    (1967)\\
+    ---\\
+Estudios de creep en Ni$_3$Fe.\\
+Agradece a Schöck por guiarlo en los primeros pasos, al grupo de Metales por innumerables discusiones y al grupo de Bs. As. \textbf{donde realizó la mayor parte de la investigación y a Sábato}
+  };
+
+  \node[mynode] (varotto) at (5,-2) {
+    \textbf{Conrado Varotto}\\
+    (1962)\\
+    ---\\
+    \emph{Cinéticas de ordenamiento y recuperación de aleaciones de Ni/Fe cerca de la composición Ni$_3$Fe}\\
+    (1968)\\
+    ---\\
+Resistividad eléctrica, Difracción de rayos X y Ensayos  mecánicos
+  };
+
+\draw (vidoz.south west) -- (m-victoria.north);
+\draw (vidoz.south) -- (pampillo.north);
+\draw (vidoz.south east) -- (varotto.north);
+
+
+\end{tikzpicture}
